@@ -16,6 +16,11 @@
 			path = MediFinder;
 			sourceTree = "<group>";
 		};
+		D445CBCE2FCE0FDF0052912E /* DummyData */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DummyData;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +37,7 @@
 		D445CBB72FCE08E50052912E = {
 			isa = PBXGroup;
 			children = (
+				D445CBCE2FCE0FDF0052912E /* DummyData */,
 				D445CBC22FCE08E50052912E /* MediFinder */,
 				D445CBC12FCE08E50052912E /* Products */,
 			);
@@ -62,6 +68,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				D445CBC22FCE08E50052912E /* MediFinder */,
+				D445CBCE2FCE0FDF0052912E /* DummyData */,
 			);
 			name = MediFinder;
 			packageProductDependencies = (
@@ -91,6 +98,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = D445CBB72FCE08E50052912E;
 			minimizedProjectReferenceProxies = 1;
@@ -185,6 +193,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -242,6 +251,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct MediFinderApp: App {
+    @State private var languageManager = LanguageManager.shared
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomePage()
+                .environment(\.locale, languageManager.currentLanguage.locale)
+                .id(languageManager.currentLanguage) // Force view refresh on language change
         }
     }
 }
