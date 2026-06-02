@@ -13,7 +13,7 @@ struct CustomSearchBar: View {
     let onSearchTapped: (() -> Void)?
     let animatePlaceholder: Bool
     
-    var languageManager = LanguageManager.shared
+    @Environment(LanguageManager.self) private var languageManager
     
     // Animasyonlu placeholder için state
     @State private var currentPlaceholderIndex = 0
@@ -144,4 +144,5 @@ struct CustomSearchBar: View {
         )
     }
     .padding(.vertical, 50)
+    .environment(LanguageManager())
 }

@@ -7,9 +7,13 @@
 
 import Foundation
 
+/// FilterOptions artık sadece fallback static listeler içeriyor.
+/// Dinamik data için ProviderViewModel.getUniqueValues() kullanılıyor.
 struct FilterOptions {
     
-    // Countries
+    // MARK: - Fallback Static Lists
+    // Bu listeler sadece JSON yüklenemediğinde veya test için kullanılır
+    
     static let countries = [
         "United States",
         "Turkey",
@@ -20,7 +24,6 @@ struct FilterOptions {
         "Australia"
     ].sorted()
     
-    // Cities
     static let cities = [
         "Istanbul",
         "Ankara",
@@ -43,8 +46,7 @@ struct FilterOptions {
         "Sydney"
     ].sorted()
     
-    // Doctor Categories
-    static let doctorCategories = [
+    static let doctorSpecialties = [
         "Cardiology",
         "Neurology",
         "Pediatrics",
@@ -72,8 +74,7 @@ struct FilterOptions {
         "Anesthesiology"
     ].sorted()
     
-    // Hospital Categories
-    static let hospitalCategories = [
+    static let hospitalServices = [
         "General Hospital",
         "Children's Hospital",
         "Cardiac Hospital",
@@ -87,14 +88,9 @@ struct FilterOptions {
         "Emergency Hospital",
         "Trauma Center",
         "Teaching Hospital",
-        "Research Hospital",
-        "Private Hospital",
-        "Public Hospital",
-        "University Hospital",
-        "Military Hospital"
+        "Research Hospital"
     ].sorted()
     
-    // Hospital Types
     static let hospitalTypes = [
         "Private Hospital",
         "Public Hospital",
@@ -106,24 +102,6 @@ struct FilterOptions {
         "Specialty Hospital"
     ].sorted()
     
-    // Institution Categories
-    static let institutionCategories = [
-        "Private Hospital",
-        "Public Hospital",
-        "University Hospital",
-        "Government Hospital",
-        "Education Hospital",
-        "Research Hospital",
-        "Eye Hospital",
-        "Eye Clinic",
-        "Dental Hospital",
-        "Dental Clinic",
-        "Aesthetic Hospital",
-        "Rehabilitation Center",
-        "Health Center"
-    ].sorted()
-    
-    // Vet Specialties
     static let vetSpecialties = [
         "General Veterinary",
         "Small Animals",
@@ -140,54 +118,25 @@ struct FilterOptions {
         "Cardiology"
     ].sorted()
     
-    // Get options based on category and filter type
-    static func getOptions(for filterType: FilterType, category: ProviderCategory) -> [String] {
-        // Önce gerçek provider'lardan unique değerleri al
-        let allProviders = ProviderService.shared.loadProviders(category: category)
-        let dynamicOptions = ProviderService.shared.getUniqueValues(from: allProviders, for: filterType)
-        
-        // Eğer JSON'dan data geldiyse onu kullan, yoksa fallback olarak statik listeyi kullan
-        let result: [String]
-        
-        if !dynamicOptions.isEmpty {
-            result = dynamicOptions
-        } else {
-            // Fallback: Statik listeler
-            switch filterType {
-            case .country:
-                result = countries
-                
-            case .city:
-                result = cities
-                
-            case .service:
-                switch category {
-                case .doctor:
-                    result = doctorCategories
-                case .hospital:
-                    result = hospitalCategories
-                case .vet:
-                    result = vetSpecialties
-                }
-                
-            case .specialty:
-                result = doctorCategories
-                
-            case .hospitalType:
-                result = hospitalTypes
-                
-            case .institution:
-                result = institutionCategories
-            }
+    // MARK: - Fallback Options Helper
+    
+    /// Sadece fallback için kullanılır. Normal durumda ProviderViewModel.getUniqueValues() kullanılmalı.
+    static func getFallbackOptions(for filterType: FilterType, category: ProviderCategory) -> [String] {
+        switch filterType {
+        case .country:
+            return countries
+            
+        case .city:
+            return cities
+            
+        case .specialty:
+            return doctorSpecialties
+            
+        case .service:
+            return hospitalServices
+            
+        case .hospitalType:
+            return hospitalTypes
         }
-        
-        print("🔍 FilterOptions.getOptions(\(filterType), \(category)): \(result.count) items")
-        if result.isEmpty {
-            print("❌ WARNING: Empty options returned!")
-        } else {
-            print("   Sample values: \(result.prefix(3).joined(separator: ", "))")
-        }
-        
-        return result
     }
 }

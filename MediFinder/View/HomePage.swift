@@ -8,18 +8,12 @@
 import SwiftUI
 
 struct HomePage: View {
-    // Language Manager
-    var languageManager = LanguageManager.shared
+    // Environment Objects
+    @Environment(LanguageManager.self) private var languageManager
+    @Environment(ProviderViewModel.self) private var viewModel
     
     // Tab state
     @State private var selectedTab: AppTab = .doctor
-    
-    // Category state (Doctor/Hospital/Vet)
-    @State private var selectedCategory: ProviderCategory = .doctor
-    
-    // Search & Filter states
-    @State private var searchText: String = ""
-    @State private var selectedFilters: [FilterType: String] = [:]
     
     // Filter dropdown state
     @State private var showFilterDropdown = false
@@ -29,14 +23,13 @@ struct HomePage: View {
     // Settings state
     @State private var showSettings = false
     
-    // Data
-    @State private var allProviders: [Provider] = []
-    @State private var filteredProviders: [Provider] = []
-    
     var body: some View {
+        // @Bindable wrapper ile viewModel'i sarmala
+        @Bindable var bindableViewModel = viewModel
+        
         ZStack(alignment: .bottom) {
             // Main Content
-            VStack(spacing: 16) {
+            VStack(spacing: 6) {
                 // Navigation Bar
                 CustomNavigationBar(
                     profileImage: "furkan",
@@ -48,23 +41,20 @@ struct HomePage: View {
                 
                 // Search Bar
                 CustomSearchBar(
-                    searchText: $searchText,
+                    searchText: $bindableViewModel.searchText,
                     animatePlaceholder: true
                 )
-                .onChange(of: searchText) { oldValue, newValue in
-                    applyFilters()
-                }
                 
                 // Filter Chips Bar
                 FilterChipsBar(
-                    selectedCategory: selectedCategory,
-                    selectedFilters: $selectedFilters,
+                    selectedCategory: viewModel.selectedCategory,
+                    selectedFilters: $bindableViewModel.selectedFilters,
                     onFilterTap: { filter in
                         print("🎯 Filter tapped: \(filter.displayName)")
                         activeFilter = filter
                         
                         // Options'ı önceden hazırla
-                        filterOptions = FilterOptions.getOptions(for: filter, category: selectedCategory)
+                        filterOptions = viewModel.getUniqueValues(for: filter)
                         print("📦 Prepared \(filterOptions.count) options")
                         
                         // Sheet'i aç
@@ -72,10 +62,59 @@ struct HomePage: View {
                     }
                 )
                 
-                // Provider Grid
+                // Provider Grid with Pagination
                 ScrollView {
-                    if filteredProviders.isEmpty {
-                        // Boş Sonuç Placeholder
+                    if viewModel.isLoading {
+                        // Initial Loading State
+                        VStack(spacing: 20) {
+                            Spacer()
+                            ProgressView()
+                                .scaleEffect(1.5)
+                            Text("Loading...")
+                                .font(.headline)
+                                .foregroundColor(.secondary)
+                            Spacer()
+                        }
+                        .frame(maxWidth: .infinity, minHeight: 400)
+                        
+                    } else if let errorMessage = viewModel.errorMessage {
+                        // Error State
+                        VStack(spacing: 20) {
+                            Spacer()
+                            Image(systemName: "exclamationmark.triangle")
+                                .font(.system(size: 60))
+                                .foregroundColor(.red.opacity(0.5))
+                            
+                            Text("Error")
+                                .font(.title2)
+                                .fontWeight(.semibold)
+                                .foregroundColor(.primary)
+                            
+                            Text(errorMessage)
+                                .font(.body)
+                                .foregroundColor(.secondary)
+                                .multilineTextAlignment(.center)
+                                .padding(.horizontal, 40)
+                            
+                            Button(action: {
+                                viewModel.loadProviders()
+                            }) {
+                                Text("Retry")
+                                    .font(.headline)
+                                    .foregroundColor(.white)
+                                    .padding(.horizontal, 30)
+                                    .padding(.vertical, 12)
+                                    .background(Color.blue)
+                                    .cornerRadius(25)
+                            }
+                            .padding(.top, 10)
+                            
+                            Spacer()
+                        }
+                        .frame(maxWidth: .infinity, minHeight: 400)
+                        
+                    } else if viewModel.filteredProviders.isEmpty {
+                        // Empty State
                         VStack(spacing: 20) {
                             Spacer()
                             
@@ -94,9 +133,9 @@ struct HomePage: View {
                                 .multilineTextAlignment(.center)
                                 .padding(.horizontal, 40)
                             
-                            if !selectedFilters.isEmpty {
+                            if !viewModel.selectedFilters.isEmpty || !viewModel.searchText.isEmpty {
                                 Button(action: {
-                                    selectedFilters.removeAll()
+                                    viewModel.clearAllFilters()
                                 }) {
                                     Text("Clear All Filters")
                                         .font(.headline)
@@ -111,27 +150,53 @@ struct HomePage: View {
                             
                             Spacer()
                         }
-                        .frame(maxWidth: .infinity)
-                        .padding(.bottom, 100)
+                        .frame(maxWidth: .infinity, minHeight: 400)
+                        
                     } else {
-                        LazyVGrid(columns: [
-                            GridItem(.flexible(), spacing: 15),
-                            GridItem(.flexible(), spacing: 15)
-                        ], spacing: 15) {
-                            ForEach(Array(filteredProviders.enumerated()), id: \.element.id) { index, provider in
-                                ProviderGridCard(
-                                    providerName: provider.name,
-                                    category: provider.category,
-                                    city: provider.city,
-                                    rating: provider.rating,
-                                    providerType: provider.providerType,
-                                    index: index,
-                                    providerImage: nil // Random image kullanılacak
-                                )
+                        // Content State with Pagination
+                        VStack(spacing: 0) {
+                            LazyVGrid(columns: [
+                                GridItem(.flexible(), spacing: 15),
+                                GridItem(.flexible(), spacing: 15)
+                            ], spacing: 15) {
+                                ForEach(Array(viewModel.filteredProviders.enumerated()), id: \.element.id) { index, provider in
+                                    ProviderGridCard(
+                                        providerName: provider.name,
+                                        category: provider.category,
+                                        city: provider.city,
+                                        rating: provider.rating,
+                                        providerType: provider.providerType,
+                                        index: index,
+                                        providerImage: nil
+                                    )
+                                    .onAppear {
+                                        // Scroll ile son 2 item'e gelince bir sonraki sayfayı yükle
+                                        if index == viewModel.filteredProviders.count - 2 {
+                                            viewModel.loadNextPage()
+                                        }
+                                    }
+                                }
                             }
+                            .padding(.horizontal, 20)
+                            .padding(.top, 10)
+                            
+                            // Loading More Indicator
+                            if viewModel.isLoadingMore {
+                                HStack {
+                                    Spacer()
+                                    ProgressView()
+                                        .scaleEffect(1.2)
+                                        .padding(.vertical, 20)
+                                    Spacer()
+                                }
+                                .transition(.opacity)
+                                .animation(.easeInOut(duration: 0.2), value: viewModel.isLoadingMore)
+                            }
+                            
+                            // Bottom padding for tab bar
+                            Color.clear
+                                .frame(height: 120)
                         }
-                        .padding(.horizontal, 20)
-                        .padding(.bottom, 100) // Tab bar için space
                     }
                 }
             }
@@ -141,12 +206,18 @@ struct HomePage: View {
                 .onChange(of: selectedTab) { oldValue, newValue in
                     updateCategoryFromTab(newValue)
                 }
+                .offset(y: 20)
         }
         .ignoresSafeArea(.keyboard)
+        .onAppear {
+            // İlk açılışta dili ViewModel'e aktar
+            viewModel.currentLanguage = languageManager.currentLanguage
+            viewModel.loadProviders()
+        }
         .onChange(of: activeFilter) { oldValue, newValue in
             // activeFilter değiştiğinde options'ı güncelle
             if let filter = newValue {
-                filterOptions = FilterOptions.getOptions(for: filter, category: selectedCategory)
+                filterOptions = viewModel.getUniqueValues(for: filter)
                 print("🔄 Options updated via onChange: \(filterOptions.count) items")
             }
         }
@@ -155,14 +226,13 @@ struct HomePage: View {
                 FilterDropdown(
                     title: String(localized: "Select") + " " + filter.displayName,
                     options: filterOptions,
-                    selectedValue: $selectedFilters[filter],
+                    selectedValue: $bindableViewModel.selectedFilters[filter],
                     onSelect: { value in
                         if let value = value {
-                            selectedFilters[filter] = value
+                            viewModel.selectedFilters[filter] = value
                         } else {
-                            selectedFilters.removeValue(forKey: filter)
+                            viewModel.selectedFilters.removeValue(forKey: filter)
                         }
-                        applyFilters()
                     }
                 )
                 .presentationDetents([.height(600), .large])
@@ -172,22 +242,6 @@ struct HomePage: View {
         .sheet(isPresented: $showSettings) {
             SettingsView()
         }
-        .onAppear {
-            loadProviders()
-        }
-        .onChange(of: selectedCategory) { oldValue, newValue in
-            // Kategori değişince filtreleri temizle ve yeni data yükle
-            selectedFilters.removeAll()
-            searchText = ""
-            loadProviders()
-        }
-        .onChange(of: selectedFilters) { oldValue, newValue in
-            applyFilters()
-        }
-        .onChange(of: languageManager.currentLanguage) { oldValue, newValue in
-            // Dil değişince data'yı yeniden yükle
-            loadProviders()
-        }
     }
     
     // MARK: - Helper Functions
@@ -196,30 +250,17 @@ struct HomePage: View {
     private func updateCategoryFromTab(_ tab: AppTab) {
         switch tab {
         case .doctor:
-            selectedCategory = .doctor
+            viewModel.selectedCategory = .doctor
         case .hospital:
-            selectedCategory = .hospital
+            viewModel.selectedCategory = .hospital
         case .vet:
-            selectedCategory = .vet
+            viewModel.selectedCategory = .vet
         }
-    }
-    
-    // Provider'ları yükle
-    private func loadProviders() {
-        allProviders = ProviderService.shared.loadProviders(category: selectedCategory)
-        applyFilters()
-    }
-    
-    // Filtreleri uygula
-    private func applyFilters() {
-        filteredProviders = ProviderService.shared.filterProviders(
-            allProviders,
-            by: selectedFilters,
-            searchText: searchText
-        )
     }
 }
 
 #Preview {
     HomePage()
+        .environment(LanguageManager())
+        .environment(ProviderViewModel())
 }

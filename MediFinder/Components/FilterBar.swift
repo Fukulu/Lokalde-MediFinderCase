@@ -29,10 +29,9 @@ enum ProviderCategory: String, CaseIterable {
 enum FilterType: CaseIterable {
     case country
     case city
-    case service
     case specialty
+    case service
     case hospitalType
-    case institution
     
     var displayName: String {
         switch self {
@@ -40,14 +39,12 @@ enum FilterType: CaseIterable {
             return String(localized: "Country")
         case .city:
             return String(localized: "City")
-        case .service:
-            return String(localized: "Service")
         case .specialty:
             return String(localized: "Specialty")
+        case .service:
+            return String(localized: "Service")
         case .hospitalType:
             return String(localized: "Hospital Type")
-        case .institution:
-            return String(localized: "Institution")
         }
     }
     
@@ -57,14 +54,12 @@ enum FilterType: CaseIterable {
             return "globe"
         case .city:
             return "building.2.fill"
-        case .service:
-            return "list.bullet.clipboard"
         case .specialty:
             return "heart.text.square"
+        case .service:
+            return "list.bullet.clipboard"
         case .hospitalType:
             return "building.2"
-        case .institution:
-            return "building.columns"
         }
     }
 }
@@ -78,10 +73,15 @@ struct FilterChipsBar: View {
     private var availableFilters: [FilterType] {
         switch selectedCategory {
         case .doctor:
-            return [.country, .service, .specialty]
+            // Doktor: Ülke, Şehir, Uzmanlık
+            return [.country, .city, .specialty]
+            
         case .hospital:
-            return [.country, .service, .hospitalType, .institution]
+            // Hastane: Ülke, Şehir, Hizmet, Hastane Tipi
+            return [.country, .city, .service, .hospitalType]
+            
         case .vet:
+            // Veteriner: Ülke (değişiklik yok)
             return [.country]
         }
     }
@@ -152,27 +152,27 @@ private struct FilterChip: View {
 
 #Preview {
     VStack(spacing: 20) {
-        Text("Doctor Filters")
+        Text("Doctor Filters: Ülke, Şehir, Uzmanlık")
             .font(.headline)
         FilterChipsBar(
             selectedCategory: .doctor,
-            selectedFilters: .constant([.country: "Turkey"]),
+            selectedFilters: .constant([.country: "Turkey", .specialty: "Cardiology"]),
             onFilterTap: { filter in
                 print("Tapped: \(filter.displayName)")
             }
         )
         
-        Text("Hospital Filters")
+        Text("Hospital Filters: Ülke, Şehir, Hizmet, Hastane Tipi")
             .font(.headline)
         FilterChipsBar(
             selectedCategory: .hospital,
-            selectedFilters: .constant([.country: "USA", .service: "Cardiology"]),
+            selectedFilters: .constant([.country: "USA", .service: "Emergency"]),
             onFilterTap: { filter in
                 print("Tapped: \(filter.displayName)")
             }
         )
         
-        Text("Vet Filters")
+        Text("Vet Filters: Sadece Ülke")
             .font(.headline)
         FilterChipsBar(
             selectedCategory: .vet,

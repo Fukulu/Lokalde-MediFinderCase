@@ -12,7 +12,7 @@ struct CustomNavigationBar: View {
     let userName: String
     let onSettingsTapped: () -> Void
     
-    var languageManager = LanguageManager.shared
+    @Environment(LanguageManager.self) private var languageManager
     
     var body: some View {
         HStack(spacing: 12) {
@@ -71,4 +71,5 @@ struct CustomNavigationBar: View {
             print("Settings tapped")
         }
     )
+    .environment(LanguageManager())
 }

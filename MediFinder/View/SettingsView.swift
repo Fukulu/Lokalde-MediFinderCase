@@ -9,14 +9,14 @@ import SwiftUI
 
 struct SettingsView: View {
     @Environment(\.dismiss) var dismiss
-    var languageManager = LanguageManager.shared
+    @Environment(LanguageManager.self) private var languageManager
     
     var body: some View {
         NavigationView {
             List {
                 // Language Section
                 Section {
-                    ForEach(AppLanguage.allCases, id: \.self) { language in
+                    ForEach(AppLanguage.allCases) { language in
                         Button(action: {
                             withAnimation {
                                 languageManager.setLanguage(language)
@@ -75,4 +75,5 @@ struct SettingsView: View {
 
 #Preview {
     SettingsView()
+        .environment(LanguageManager())
 }

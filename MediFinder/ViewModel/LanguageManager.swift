@@ -8,9 +8,11 @@
 import Foundation
 import SwiftUI
 
-enum AppLanguage: String, CaseIterable {
+enum AppLanguage: String, CaseIterable, Identifiable {
     case english = "en"
     case turkish = "tr"
+    
+    var id: String { rawValue }
     
     var displayName: String {
         switch self {
@@ -33,37 +35,52 @@ enum AppLanguage: String, CaseIterable {
     var locale: Locale {
         Locale(identifier: rawValue)
     }
+    
+    var jsonSuffix: String {
+        rawValue.uppercased()
+    }
 }
 
 @Observable
 class LanguageManager {
-    static let shared = LanguageManager()
     
     var currentLanguage: AppLanguage {
         didSet {
-            UserDefaults.standard.set([currentLanguage.rawValue], forKey: "AppleLanguages")
             UserDefaults.standard.set(currentLanguage.rawValue, forKey: "AppLanguage")
             UserDefaults.standard.synchronize()
+            onLanguageChanged?()
         }
     }
     
-    private init() {
-        // Load saved language or default to English
-        if let savedLanguage = UserDefaults.standard.string(forKey: "AppLanguage"),
-           let language = AppLanguage(rawValue: savedLanguage) {
-            self.currentLanguage = language
+    var onLanguageChanged: (() -> Void)?
+    
+    init() {
+        // UserDefaults'tan direkt oku (AppStorage yerine)
+        let savedLanguageCode = UserDefaults.standard.string(forKey: "AppLanguage")
+        
+        // Daha önce kaydedilmiş dil var mı?
+        if let savedLanguageCode = savedLanguageCode,
+           let savedLanguage = AppLanguage(rawValue: savedLanguageCode) {
+            self.currentLanguage = savedLanguage
         } else {
-            self.currentLanguage = .english
+            // Cihaz dilini kontrol et
+            let deviceLanguage = Locale.current.language.languageCode?.identifier ?? "en"
+            
+            // Desteklenen diller arasında var mı?
+            if let matchedLanguage = AppLanguage(rawValue: deviceLanguage) {
+                self.currentLanguage = matchedLanguage
+            } else {
+                // Varsayılan olarak İngilizce
+                self.currentLanguage = .english
+            }
+            
+            // İlk açılışta kaydedelim
+            UserDefaults.standard.set(currentLanguage.rawValue, forKey: "AppLanguage")
+            UserDefaults.standard.synchronize()
         }
     }
     
     func setLanguage(_ language: AppLanguage) {
         currentLanguage = language
     }
-    
-    // JSON file suffix based on language (uppercase for backward compatibility)
-    var jsonSuffix: String {
-        currentLanguage.rawValue.uppercased()
-    }
 }
-
