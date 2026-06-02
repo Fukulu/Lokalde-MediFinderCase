@@ -14,6 +14,16 @@ MediFinder; doktor, hastane ve veteriner gibi sağlık hizmeti sağlayıcıları
 
 ---
 
+## 🎬 Uygulama Demo Videosu
+
+Uygulamanın tüm özelliklerini, akışını ve dinamik dil geçişlerini canlı olarak görmek için aşağıdaki görselin üzerine tıklayarak tanıtım videosunu izleyebilirsiniz:
+
+[![MediFinder Uygulama Demosu](https://img.youtube.com/vi/QDc9xFe-A9E/maxresdefault.jpg)](https://www.youtube.com/watch?v=QDc9xFe-A9E)
+
+*Not: Eğer yukarıdaki görsel görünmüyorsa, videoya doğrudan ulaşmak için [buraya tıklayabilirsiniz](https://www.youtube.com/watch?v=QDc9xFe-A9E).*
+
+---
+
 ## 🏗️ Mimari Tercihler & Tasarım
 
 Uygulama, sürdürülebilir, test edilebilir ve genişletilebilir bir kod tabanı oluşturmak amacıyla modern iOS standartlarına uygun olarak mimarize edilmiştir.
