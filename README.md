@@ -16,11 +16,17 @@ MediFinder; doktor, hastane ve veteriner gibi sağlık hizmeti sağlayıcıları
 
 ## 🎬 Uygulama Demo Videosu
 
-Uygulamanın tüm özelliklerini, akışını ve dinamik dil geçişlerini canlı olarak görmek için aşağıdaki görselin üzerine tıklayarak tanıtım videosunu izleyebilirsiniz:
+Uygulamanın tüm özelliklerini, akışını, filtreleme detaylarını ve dinamik dil geçişlerini canlı olarak görmek için aşağıdaki görsele veya bağlantıya tıklayarak YouTube Shorts videomuzu izleyebilirsiniz:
 
-[![MediFinder Uygulama Demosu](https://img.youtube.com/vi/QDc9xFe-A9E/maxresdefault.jpg)](https://www.youtube.com/watch?v=QDc9xFe-A9E)
+<p align="center">
+  <a href="https://youtube.com/shorts/QDc9xFe-A9E" target="_blank">
+    <img src="https://img.youtube.com/vi/QDc9xFe-A9E/0.jpg" alt="MediFinder Uygulama Demosu" width="300" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"/>
+  </a>
+</p>
 
-*Not: Eğer yukarıdaki görsel görünmüyorsa, videoya doğrudan ulaşmak için [buraya tıklayabilirsiniz](https://www.youtube.com/watch?v=QDc9xFe-A9E).*
+<p align="center">
+  ▶️ <b><a href="https://youtube.com/shorts/QDc9xFe-A9E" target="_blank">MediFinder Demo Videosunu İzlemek İçin Tıklayın</a></b>
+</p>
 
 ---
 
