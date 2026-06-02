@@ -48,6 +48,21 @@ enum FilterType: CaseIterable {
         }
     }
     
+    var displayText: Text {
+        switch self {
+        case .country:
+            return Text("Country")
+        case .city:
+            return Text("City")
+        case .specialty:
+            return Text("Specialty")
+        case .service:
+            return Text("Service")
+        case .hospitalType:
+            return Text("Hospital Type")
+        }
+    }
+    
     var icon: String {
         switch self {
         case .country:
@@ -111,10 +126,6 @@ private struct FilterChip: View {
     let selectedValue: String?
     let onTap: () -> Void
     
-    var displayText: String {
-        selectedValue ?? filterType.displayName
-    }
-    
     var isSelected: Bool {
         selectedValue != nil
     }
@@ -125,7 +136,7 @@ private struct FilterChip: View {
                 Image(systemName: filterType.icon)
                     .font(.system(size: 13))
                 
-                Text(displayText)
+                filterType.displayText
                     .font(.system(size: 14, weight: .medium))
                     .lineLimit(1)
                 

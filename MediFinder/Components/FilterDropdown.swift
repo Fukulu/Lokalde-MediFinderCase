@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct FilterDropdown: View {
-    let title: String
+    let title: Text
     let options: [String]
     @Binding var selectedValue: String?
     let onSelect: (String?) -> Void
@@ -17,7 +17,7 @@ struct FilterDropdown: View {
     @State private var searchText: String = ""
     @State private var selectedOptions: Set<String> = []
     
-    init(title: String, options: [String], selectedValue: Binding<String?>, onSelect: @escaping (String?) -> Void) {
+    init(title: Text, options: [String], selectedValue: Binding<String?>, onSelect: @escaping (String?) -> Void) {
         self.title = title
         self.options = options
         self._selectedValue = selectedValue
@@ -39,7 +39,7 @@ struct FilterDropdown: View {
         VStack(spacing: 0) {
             // Header
             HStack {
-                Text(title)
+                title
                     .font(.system(size: 18, weight: .semibold))
                     .foregroundColor(.primary)
                 
@@ -188,7 +188,7 @@ private struct FilterOptionRow: View {
 
 #Preview {
     FilterDropdown(
-        title: "Kuruluş Kategorisi",
+        title: Text("Kuruluş Kategorisi"),
         options: [
             "Devlet Hastanesi",
             "Diş Hastanesi",

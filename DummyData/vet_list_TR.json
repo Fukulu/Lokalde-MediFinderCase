@@ -10,6 +10,8 @@
     "rating": 4.7,
     "phone": "+65 6222 3344",
     "email": "info@beecroft.sg",
+    "experience": 25,
+    "review_count": 77,
     "about_me": "Beecroft Animal Specialist & Emergency Hospital, evcil dostlarınız için 7/24 son teknoloji acil bakım ve gelişmiş cerrahi tedavi hizmetleri sunmaktadır. Alanında uzman ekibimiz, karmaşık tıbbi vakaları yönetmeye kendini adamış, uluslararası sertifikalı uzmanlardan oluşur. En yüksek güvenlik standartlarını garanti etmek için gelişmiş teşhis yöntemleri ve yoğun bakım üniteleri kullanıyoruz. Dostunuzun sağlığı ve konforu günün her saati bizim en önemli önceliğimizdir."
   },
   {
@@ -23,6 +25,8 @@
     "rating": 4.2,
     "phone": "+1 905 222 3344",
     "email": "info@spencercreekvet.ca",
+    "experience": 5,
+    "review_count": 399,
     "about_me": "Hamilton'da yer alan Spencer Creek Animal Hospital, aile dostlarınız için kapsamlı tıbbi, diş ve cerrahi hizmetler sunmaktadır. Evcil hayvanların uzun ve sağlıklı bir yaşam sürmesi için koruyucu bakıma, düzenli sağlık taramalarına ve kişiye özel aşı planlarına önem veriyoruz. Şefkatli veteriner ekibimiz, her hastaya kendi hayvanımızla aynı sevgi ve ilgiyi gösterir. Açık iletişim yoluyla yerel evcil hayvan sahipleriyle ömür boyu sürecek ilişkiler kurmayı hedefliyoruz."
   },
   {
@@ -36,6 +40,8 @@
     "rating": 5.0,
     "phone": "+351 22 222 3344",
     "email": "contacto@linguadegato.pt",
+    "experience": 13,
+    "review_count": 145,
     "about_me": "Língua de Gato, Porto'da sadece kedilerin benzersiz sağlık ihtiyaçlarını karşılamak üzere tasarlanmış prestijli bir veteriner kliniğidir. Uzman ekibimiz kedi davranışlarını çok iyi analiz ederek kedi dostlarınız için stressiz, sessiz ve sakinleştirici bir ortam sağlar. Rutin sağlık kontrollerinden beslenme danışmanlığına ve karmaşık iç hastalıklara kadar her şeyi uzman hassasiyetiyle yönetiyoruz. Kedinizin gerçekten ilk sırada geldiği özel bir veterinerlik alanını keşfedin."
   },
   {
@@ -49,6 +55,8 @@
     "rating": 3.9,
     "phone": "+1 905 222 3345",
     "email": "briarwood@vethospital.ca",
+    "experience": 12,
+    "review_count": 91,
     "about_me": "Briarwood Animal Hospital, Hamilton bölgesindeki köpeklere, kedilere ve küçük evcil hayvanlara yüksek kalitede veterinerlik hizmeti sunmaktadır. Modern tesisimiz, hızlı teşhis için tam donanımlı cerrahi süitlere, dijital röntgenlere ve şirket içi bir laboratuvara sahiptir. Muayeneler ve tedaviler sırasında oluşabilecek kaygıyı en aza indirmek için hassas yaklaşım tekniklerine odaklanıyoruz. Bilgili personelimiz, pratik davranış ve sağlık tavsiyeleriyle evcil hayvan sahiplerini desteklemekten her zaman mutluluk duyar."
   },
   {
@@ -62,6 +70,8 @@
     "rating": 4.5,
     "phone": "+1 905 222 3346",
     "email": "stoneyridge@vethospital.ca",
+    "experience": 28,
+    "review_count": 72,
     "about_me": "Stoney Ridge Animal Hospital'da, sevgili evcil hayvanlarınızı sağlıklı, aktif ve mutlu tutma konusunda son derece tutkuluyuz. Yaşlı evcil hayvanlar için proaktif sağlık bakımı ve gelişmiş diş tedavileri de dahil olmak üzere kapsamlı bir veterinerlik hizmeti yelpazesi sunuyoruz. Ekibimiz, en son tıbbi gelişmeleri günlük uygulamalarımıza dahil etmek için eğitimlerini sürekli olarak güncellemektedir. Hem evcil hayvanlar hem de sahipleri için sıcak ve davetkar bir topluluk ortamı yaratmaktan gurur duyuyoruz."
   },
   {
@@ -75,6 +85,8 @@
     "rating": 4.1,
     "phone": "+1 905 222 3347",
     "email": "gagemount@vethospital.ca",
+    "experience": 26,
+    "review_count": 399,
     "about_me": "Gagemount Animal Hospital, uzun yıllardır yerel evcil hayvan topluluğuna güvenilir ve profesyonel veteriner bakımıyla gururla hizmet vermektedir. Hizmetlerimiz, temel parazit önleme uygulamalarından gelişmiş teşhis testlerine ve yumuşak doku ameliyatlarına kadar geniş bir yelpazeyi kapsar. Ailelerin yaşam tarzlarına en uygun tedavi yollarını seçmek için onlarla yakın iş birliği içinde çalışarak ortak bir yaklaşımı benimsiyoruz. Deneyimli ve ilgili veteriner hekimlerimize, evcil hayvanınızın her yaşam evresinde rehberlik etmesi için güvenebilirsiniz."
   },
   {
@@ -88,6 +100,8 @@
     "rating": 4.6,
     "phone": "+27 21 222 3344",
     "email": "montevista@citivet.co.za",
+    "experience": 22,
+    "review_count": 64,
     "about_me": "Citivet Monte Vista, Cape Town'da evcil hayvan sağlığı ve refahı konusunda güvenilir bir mükemmellik merkezi olarak hizmet vermektedir. Tıbbi tedavileri, tesis bünyesindeki tam stoklu birinci sınıf evcil hayvan maması ve aksesuar mağazasıyla eşleştirerek tam entegre veterinerlik bakımı sunuyoruz. Tesisimiz, klinik hassasiyete ve nazik hayvan yaklaşımına kendini adamış uzman bir ekibin yanı sıra gelişmiş teşhis süitlerine sahiptir. Her ziyareti aileniz için bilgilendirici, olumlu ve sorunsuz hale getirmeyi amaçlıyoruz."
   },
   {
@@ -101,6 +115,8 @@
     "rating": 4.8,
     "phone": "+27 21 222 3345",
     "email": "info@exoticvet.co.za",
+    "experience": 23,
+    "review_count": 236,
     "about_me": "Exotic Vet, kuşların, sürüngenlerin, amfibilerin ve küçük memelilerin tıbbi ve cerrahi bakımı konusunda benzersiz bir uzmanlığa sahiptir. Egzotik türlerin son derece hassas çevresel kontrollere, özel teşhis yöntemlerine ve özel anestezi parametrelerine ihtiyaç duyduğunun bilincindeyiz. Cape Town'daki özel tasarım tesisimiz, geleneksel olmayan evcil hayvanları güvenli ve rahat tutmak için türe özgü barınma alanları sunmaktadır. Gelişmiş bakım ve beslenme konusunda uzman tavsiyesi almak için uzman veteriner ekibimize güvenebilirsiniz."
   },
   {
@@ -114,6 +130,8 @@
     "rating": 4.4,
     "phone": "+1 617 222 3344",
     "email": "boston@vetcare.com",
+    "experience": 6,
+    "review_count": 35,
     "about_me": "Boston Veterinary Care, şehrin tam kalbinde şefkatli klinik hizmetler sunmaktadır. Standart koruyucu sağlık kontrollerini özel teşhis testleri, profesyonel diş temizliği ve hedefli ameliyatlarla birleştiriyoruz. Kendini işine adamış hastane personelimiz, kliniğimizi ziyaret eden her dosta, onun farklı karakterine göre uyarlanmış kişiselleştirilmiş bir ilgi gösterir. Evcil hayvanlarınızın olağanüstü ve empatik tıbbi bakımla sağlıklı kalmalarını sağlamaya kararlıyız."
   },
   {
@@ -127,6 +145,8 @@
     "rating": 4.0,
     "phone": "+1 905 222 3348",
     "email": "eastmountain@vethospital.ca",
+    "experience": 7,
+    "review_count": 131,
     "about_me": "East Mountain Animal Hospital, Hamilton genelindeki köpek ve kediler için kapsamlı, profesyonel tıbbi yönetim sunmaktadır. Veterinerlik tesisimiz gelişmiş koruyucu tedavilere, erken hastalık taramalarına ve özel yumuşak doku operasyonlarına öncelik vermektedir. Evcil hayvan sahiplerinin soru sormaktan çekinmeyeceği, kapsayıcı ve destekleyici bir klinik ortamı besliyoruz. Veteriner hekimlerimiz, maksimum uzun ömür ve konfor sağlamak için kişiye özel sağlık planları sunmaya odaklanmaktadır."
   },
   {
@@ -140,6 +160,8 @@
     "rating": 4.3,
     "phone": "+1 905 222 3349",
     "email": "info@beattiepethospital.ca",
+    "experience": 12,
+    "review_count": 278,
     "about_me": "Beattie Pet Hospital, çok disiplinli veterinerlik çözümlerini son derece duyarlı ve hasta odaklı bir hizmet modeliyle birlikte sunmaktadır. Hamilton'daki şubemiz, modern teşhis test ekipmanları ve tam ölçekli cerrahi yeteneklerle donatılmıştır. Yaşam boyu sağlığı ve kronik durumların etkili yönetimini hedefleyen, erişilebilir ve kapsamlı bakıma önem veriyoruz. Ekibimiz net talimatlar ve derin veterinerlik uzmanlığıyla ailenize yardımcı olmaya her zaman hazırdır."
   },
   {
@@ -153,6 +175,8 @@
     "rating": 4.7,
     "phone": "+27 21 222 3346",
     "email": "alphen@vethospital.co.za",
+    "experience": 24,
+    "review_count": 33,
     "about_me": "Alphen Veterinary Hospital, Cape Town'da faaliyet gösteren köklü ve tam donanımlı bir evcil hayvan sağlık merkezidir. Rutin aşılardan ve yavru köpek kontrollerinden kapsamlı ortopedik operasyonlara kadar her şeyi yönetiyoruz. Modern tesisimiz, konforlu iyileşme odaları ve üst düzey iç hastalıkları takip sistemlerini içerir. Güven, mükemmellik ve evcil hayvanlara duyulan ortak sevgiye dayalı, kalıcı ilişkiler kurmaya odaklanıyoruz."
   },
   {
@@ -166,6 +190,8 @@
     "rating": 4.5,
     "phone": "+44 131 222 3344",
     "email": "info@dundasvetgroup.co.uk",
+    "experience": 22,
+    "review_count": 121,
     "about_me": "Dundas Veterinary Group, Edinburgh evcil hayvan topluluğuna aile odaklı evcil hayvan sağlığı çözümleri sunarak başarıyla hizmet vermektedir. Pratiğimiz, karmaşık tıbbi teşhisleri, diş restorasyon prosedürlerini ve koruyucu tedavileri uygulayabilecek donanıma sahiptir. Endişeli evcil hayvanların kendilerini tamamen rahat hissetmelerine yardımcı olmak için samimi, sakin ve profesyonel bir atmosfer sağlıyoruz. Veteriner hekimlerimiz hasta eğitimi ve sorumlu evcil hayvan sahipliğini destekleme konusunda son derece tutkuludur."
   },
   {
@@ -179,6 +205,8 @@
     "rating": 4.2,
     "phone": "+1 416 222 3344",
     "email": "beaches@vethospital.ca",
+    "experience": 27,
+    "review_count": 352,
     "about_me": "Beaches Animal Hospital, son derece destekleyici ve modern bir Toronto mahalle kliniğinde kişiye özel veteriner tıbbi ilgisi sunmaktadır. Genel kontroller, hassas mikroçip uygulamaları, kilo yönetimi rehberliği ve dijital radyografi hizmetleri sunuyoruz. Tesisimiz, erken koruyucu taramaları tutkuyla savunan kendini işine adamış, empatik bir ekibe sahiptir. Aile dostlarınızın zinde ve rahat kalmasını sağlamak için sizinle ortaklık kurmayı sabırsızlıkla bekliyoruz."
   },
   {
@@ -192,6 +220,8 @@
     "rating": 4.6,
     "phone": "+420 603 545 022",
     "email": "info@vetklinika.cz",
+    "experience": 27,
+    "review_count": 299,
     "about_me": "Ostrava'daki Veterinární Klinika, evcil hayvanlar için birinci sınıf, kanıta dayalı teşhis değerlendirmeleri ve hedefli tedaviler sunmaktadır. Profesyonel tesisimiz, modern iç hastalıkları teknolojisini kullanan yetkin hekimler tarafından yönetilmektedir. Kendimizi tamamen hasta güvenliği, ağrı yönetimi ve hızlı iyileşmeye odaklanmış bir klinik ortam sağlamaya adadık. Hayvanınızın yaşam tarzına özel olarak uyarlanmış güvenilir sağlık desteği için bizimle iletişime geçebilirsiniz."
   },
   {
@@ -205,6 +235,8 @@
     "rating": 4.4,
     "phone": "+1 905 333 4455",
     "email": "info@burlingtonvet.ca",
+    "experience": 18,
+    "review_count": 132,
     "about_me": "Burlington Veterinary, yerel evcil hayvanlar için tam donanımlı tıbbi, diş ve cerrahi çözümler sunmaktadır. Kliniğimiz, zamanınıza saygı duymak ve odaklanmış bakım sağlamak amacıyla gelişmiş randevu sistemleri ve modern muayene odaları kullanır. Sağlık sorunlarını daha ortaya çıkmadan durdurmak için koruyucu sağlık stratejilerine yoğun bir şekilde odaklanıyoruz. Hayvanınızı her macerasında korumak için deneyimli ve güler yüzlü veteriner ekibimize güvenebilirsiniz."
   },
   {
@@ -218,6 +250,8 @@
     "rating": 3.8,
     "phone": "+1 905 222 3350",
     "email": "chedoke@vethospital.ca",
+    "experience": 19,
+    "review_count": 321,
     "about_me": "Chedoke Animal Hospital, Hamilton'daki evcil hayvan sahipleri için erişilebilir ve güvenilir evcil hayvan bakımı konusunda uzmanlaşmıştır. Klinik kapsamımızda düzenli sağlık takibi, yumuşak doku ameliyatları ve terapötik iyileşme programları yer almaktadır. Stressiz bir muayene deneyimi sağlamak için her boyuttan ve mizaçtan hayvanla sabırla çalışıyoruz. Ailenizle tanışmayı ve evcil hayvanınızın sürekli sağlığını güvence altına almayı sabırsızlıkla bekliyoruz."
   },
   {
@@ -231,6 +265,8 @@
     "rating": 4.1,
     "phone": "+1 416 222 3355",
     "email": "central@torontovetclinic.ca",
+    "experience": 13,
+    "review_count": 434,
     "about_me": "Toronto Central Animal Clinic, Toronto'nun hareketli kalbinde son derece duyarlı tıbbi bakım hizmeti sunmaktadır. Modern pratiğimiz ağırlıklı olarak koruyucu bakım planlarına, rutin mikroçip uygulamalarına ve hedefli teşhis testlerine odaklanır. Her hastaya tıbbi hassasiyet ve samimi bir ilginin dengeli bir kombinasyonuyla yaklaşıyoruz. Ekibimiz, şehirli evcil hayvanların uzun ve son derece sağlıklı hayatlar yaşamasına yardımcı olmaya kendini tamamen adamıştır."
   },
   {
@@ -244,6 +280,8 @@
     "rating": 4.5,
     "phone": "+1 905 222 3351",
     "email": "bluecross@vethospital.ca",
+    "experience": 5,
+    "review_count": 408,
     "about_me": "Blue Cross Animal Hospital, Hamilton bölgesine gelişmiş veterinerlik çözümleri ve kapsamlı tıbbi hizmetler getirmektedir. Yüksek çözünürlüklü teşhis radyografisi, güvenli cerrahi anestezi takibi ve özel tedavi seçenekleri sunuyoruz. Hekimlerimiz, evcil hayvanınızın gelişimi hakkında sizi tamamen bilgilendirmek için açık iletişime öncelik verir. Ailelerin kendilerini tamamen desteklenmiş hissetmelerine yardımcı olan, kapsayıcı ve rahatlatıcı bir alan yaratmaya çalışıyoruz."
   },
   {
@@ -257,6 +295,8 @@
     "rating": 4.9,
     "phone": "+41 44 222 3344",
     "email": "letzigrund@vetzentrum.ch",
+    "experience": 30,
+    "review_count": 101,
     "about_me": "VET Zentrum Zürich Letzigrund, Zürih'te dünya standartlarında veterinerlik hassasiyeti ve özel tedavi planlaması sunmaktadır. Kliniğimiz, karmaşık tıbbi sorunları çözmek için gelişmiş laboratuvar sistemlerini ve özel cerrahi teknikleri bünyesinde barındırır. Üst düzey hayvan bakımı sunmak için sürekli eğitime ve klinik mükemmelliğe odaklanıyoruz. Personelimiz iki dilli olup, yerel ve uluslararası evcil hayvan sahiplerini olağanüstü İsviçre standartlarıyla karşılamaktadır."
   },
   {
@@ -270,6 +310,8 @@
     "rating": 4.3,
     "phone": "+90 216 111 2233",
     "email": "baris@veterinerklinigi.com",
+    "experience": 27,
+    "review_count": 236,
     "about_me": "Barış Veteriner Kliniği, İstanbul'da evcil dostlarınızın sağlıklı ve mutlu bir yaşam sürmesi için kapsamlı sağlık hizmetleri sunmaktadır[cite: 1]. Alanında uzman hekimlerimizle rutin kontroller, cerrahi müdahaleler ve modern laboratuvar tahlillerini titizlikle gerçekleştiriyoruz[cite: 1]. Sevgi dolu ve stressiz bir klinik ortamı yaratarak dostlarımızın korkularını en aza indirmeyi hedefliyoruz[cite: 1]. Bilgimiz ve modern teknolojik altyapımızla her zaman yanınızdayız[cite: 1]."
   },
   {
@@ -283,6 +325,8 @@
     "rating": 4.7,
     "phone": "+90 216 222 33 44",
     "email": "kosuyolu@vet216.com",
+    "experience": 15,
+    "review_count": 162,
     "about_me": "Vet216 Koşuyolu, evcil hayvanlarınız için 7/24 kesintisiz acil müdahale ve uzman veteriner hekimlik çözümleri sağlamaktadır[cite: 1]. Gelişmiş yoğun bakım ünitelerimiz ve modern cerrahi odalarımızla kritik durumlarda en hızlı desteği sunuyoruz[cite: 1]. Koruyucu hekimlik uygulamalarımızla dostlarımızın hastalanma risklerini önceden tespit edip gerekli önlemleri alıyoruz[cite: 1]. Profesyonel ve şefkatli ekibimizle dostlarınız emin ellerde[cite: 1]."
   },
   {
@@ -296,6 +340,8 @@
     "rating": 4.6,
     "phone": "+90 216 333 4455",
     "email": "caddebostan@vetpoliklinik.com",
+    "experience": 9,
+    "review_count": 130,
     "about_me": "Caddebostan Veteriner Polikliniki, Kadıköy bölgesinde modern tıp teknolojilerini sıcak bir aile ortamıyla birleştirerek sunmaktadır[cite: 1]. Kediler ve köpekler için özel muayene alanlarımız sayesinde dostlarımızın stressiz bir tedavi süreci geçirmesini sağlıyoruz[cite: 1]. Ağız ve diş sağlığı, dijital röntgen ve detaylı check-up hizmetlerimizle erken teşhise büyük önem veriyoruz[cite: 1]. Evcil dostunuzun yaşam kalitesini artırmak için buradayız[cite: 1]."
   },
   {
@@ -309,6 +355,8 @@
     "rating": 4.8,
     "phone": "+90 216 444 5566",
     "email": "info@anatoliaanimalhospital.com",
+    "experience": 29,
+    "review_count": 192,
     "about_me": "Anatolia Animal Hospital, uluslararası standartlarda tam teşekküllü veteriner hastanesi altyapısıyla İstanbul'da hizmet vermektedir[cite: 1]. Dahiliye, ortopedi, kardiyoloji ve onkoloji gibi birçok uzmanlık dalında derinlemesine tanı ve tedavi imkanı sunuyoruz[cite: 1]. Gelişmiş görüntüleme merkezimizle en karmaşık vakaları bile başarıyla çözüme kavuşturabiliyoruz[cite: 1]. Sadık dostlarımıza hak ettikleri en üst düzey tıbbi bakımı sunmak temel misyonumuzdur[cite: 1]."
   },
   {
@@ -322,6 +370,8 @@
     "rating": 5.0,
     "phone": "+351 22 333 4455",
     "email": "geral@quintadocovelo.pt",
+    "experience": 8,
+    "review_count": 67,
     "about_me": "Porto'daki Clínica Veterinária Quinta do Covelo, evcil hayvanlar için huzurlu ve son derece gelişmiş bir tıbbi ortam sunmaktadır. Klinik uzmanlık alanlarımız arasında kişiye özel beslenme planları, kapsamlı aşı uygulamaları ve hassas yumuşak doku mikrocerrahileri yer almaktadır. Hayvanların kendilerini tamamen rahat ve güvende hissetmelerine yardımcı olan nazik tedavi tekniklerine sürekli olarak odaklanıyoruz. Dostunuzun sürekli canlılığını desteklemek için son derece yetkin veteriner ekibimize güvenebilirsiniz."
   },
   {
@@ -335,6 +385,8 @@
     "rating": 4.2,
     "phone": "+1 905 222 3352",
     "email": "ancaster@vethospital.ca",
+    "experience": 17,
+    "review_count": 69,
     "about_me": "Ancaster Animal Hospital, tamamen klinik uzmanlık ve gerçek bir şefkat üzerine kurulu kişiselleştirilmiş veterinerlik çözümleri sunmaktadır. Hamilton'da bulunan kliniğimiz kapsamlı sağlık kontrolleri, koruyucu tarama testleri ve uzman diş hekimliği hizmetleri sunar. Her evcil hayvanın, kendine özgü bakım ihtiyaçları olan ayrı bir aile üyesi olduğunun bilincindeyiz. Destekleyici veteriner profesyonellerimiz size rehberlik etmeye her zaman hazırdır."
   },
   {
@@ -348,6 +400,8 @@
     "rating": 4.4,
     "phone": "+48 61 222 3344",
     "email": "kontakt@sunvet.pl",
+    "experience": 16,
+    "review_count": 453,
     "about_me": "Poznań'daki SunVet, modern veterinerlik uygulamalarını kendini işine adamış, empatik bir evcil hayvan bakım personeliyle birleştirmektedir. Tesisimiz proaktif teşhis tıbbını, sürekli rutin sağlık bakımını ve yumuşak doku cerrahisini hedeflemektedir. Muayeneler sırasında evcil hayvanların kendilerini güvende ve rahat hissetmelerini sağlamak için sıcak ve davetkar bir ortam sürdürmek adına çok çalışıyoruz. Evcil hayvanların ömrünü uzatmak için sahipleriyle yakın iş birliği içinde çalışma konusunda tutkuluyuz."
   },
   {
@@ -361,6 +415,8 @@
     "rating": 4.0,
     "phone": "+1 905 222 3353",
     "email": "stoneycreek@vethospital.ca",
+    "experience": 16,
+    "review_count": 329,
     "about_me": "Animal Hospital Of Stoney Creek, aile dostlarınızı tüm yaşam evreleri boyunca sağlıklı ve aktif tutmaya kendini tamamen adamıştır. Yüksek kaliteli koruyucu veteriner bakımı, gelişmiş teşhis testleri ve kapsamlı standart ameliyatlar sunuyoruz. Hamilton'daki pratiğimiz, girdilerinize saygı duyan ortak bir deneyim yaratmaktan gurur duyar. Tamamen hayvanınızın yaşam tarzına göre uyarlanmış güvenilir, güler yüzlü bir bakım modelini deneyimleyin."
   }
 ]

@@ -10,6 +10,8 @@
     "rating": 4.6,
     "phone": "+90 312 111 22 33",
     "email": "info@bilgihastanesi.com",
+    "experience": 14,
+    "review_count": 520,
     "about_me": "Ankara'da uzun yıllardır güvenilir sağlık hizmetinin adresi olan Özel Bilgi Hastanesi, ileri tanı ve tedavi yöntemlerini uzman hekim kadrosuyla buluşturmaktadır. Kişiye özel check-up programlarımız ve hasta odaklı yaklaşımımızla, modern tıbbın tüm imkanlarını konforlu bir ortamda sunarak sağlığınızı korumayı önceliğimiz haline getiriyoruz."
   },
   {
@@ -23,6 +25,8 @@
     "rating": 4.7,
     "phone": "+90 242 222 33 44",
     "email": "info@ofmhospital.com",
+    "experience": 34,
+    "review_count": 839,
     "about_me": "Antalya'da 'Önce İnsan' felsefesiyle yola çıkan Özel OFM Antalya Hastanesi, geniş branş ağı ve tam donanımlı altyapısıyla bölgenin öncü sağlık kuruluşlarındandır. Akdeniz'in kalbinde, hem yerel hem de uluslararası hastalarımıza kapsayıcı tarama (check-up) paketleri ve multidisipliner tedavi çözümleri sunmaktan gurur duyuyoruz."
   },
   {
@@ -36,6 +40,8 @@
     "rating": 4.5,
     "phone": "+90 232 333 44 55",
     "email": "info@centralhospital.com",
+    "experience": 16,
+    "review_count": 772,
     "about_me": "İzmir'de merkezi konumu ve yüksek hasta memnuniyetiyle bilinen Central Hospital, koruyucu hekimlik uygulamalarına büyük önem vermektedir. Detaylı genel sağlık taramalarından cerrahi müdahalelere kadar her aşamada, şefkatli bakım anlayışımız ve deneyimli uzmanlarımızla İzmir halkına kesintisiz sağlık güvencesi sağlıyoruz."
   },
   {
@@ -49,6 +55,8 @@
     "rating": 4.4,
     "phone": "+90 232 444 55 66",
     "email": "info@gozdehastanesi.com",
+    "experience": 30,
+    "review_count": 799,
     "about_me": ""
   },
   {
@@ -62,6 +70,8 @@
     "rating": 4.6,
     "phone": "+90 312 555 66 77",
     "email": "info@mimhastanesi.com",
+    "experience": 27,
+    "review_count": 493,
     "about_me": "Özel Mim Hastanesi, estetik, plastik ve rekonstrüktif cerrahi alanında Ankara'da referans merkezlerden biri konumundadır. Modern ameliyathanelerimiz, klinik tecrübemiz ve hasta mahremiyetini en üst düzeyde tutan hizmet yaklaşımımızla, hastalarımızın estetik ve fonksiyonel cerrahi ihtiyaçlarına güvenli ve kalıcı çözümler üretiyoruz."
   },
   {
@@ -75,6 +85,8 @@
     "rating": 4.9,
     "phone": "+90 312 444 7 888",
     "email": "ankara@memorial.com.tr",
+    "experience": 37,
+    "review_count": 869,
     "about_me": "Memorial Sağlık Grubu'nun başkentteki temsilcisi Memorial Ankara Hastanesi, dünya standartlarında akreditasyonlara sahip, uluslararası düzeyde bir sağlık üssüdür. İleri tıp teknolojisi, seçkin akademik kadrosu ve kapsamlı koruyucu sağlık panelleriyle (check-up), hastalarımıza benzersiz kalitede konforlu bir şifa ortamı sunuyoruz."
   },
   {
@@ -88,6 +100,8 @@
     "rating": 4.3,
     "phone": "+90 312 315 55 45",
     "email": "info@ortadoghastanesi.com",
+    "experience": 12,
+    "review_count": 595,
     "about_me": ""
   },
   {
@@ -101,6 +115,8 @@
     "rating": 4.8,
     "phone": "+90 242 444 7 888",
     "email": "antalya@memorial.com.tr",
+    "experience": 12,
+    "review_count": 132,
     "about_me": "Akdeniz Bölgesi'nin JCI akreditasyonuna sahip en prestijli sağlık kurumlarından biri olan Memorial Antalya Hastanesi, tatil ve sağlığı birleştiren benzersiz mimarisiyle hizmet vermektedir. Uluslararası standartlardaki tanı-tedavi ünitelerimiz ve yaş gruplarına özel check-up programlarımızla, küresel ölçekte hastaya özel bakım sunuyoruz."
   },
   {
@@ -114,6 +130,8 @@
     "rating": 4.9,
     "phone": "+1 617 732 5500",
     "email": "info@brighamandwomens.org",
+    "experience": 34,
+    "review_count": 319,
     "about_me": "As a major teaching affiliate of Harvard Medical School, Brigham and Women's Hospital is a global leader in clinical excellence and groundbreaking biomedical research. Our comprehensive health screening programs combine academic rigor with personalized preventive medicine to ensure the highest standards of longevity and wellness."
   },
   {
@@ -127,6 +145,8 @@
     "rating": 4.7,
     "phone": "+1 617 636 5000",
     "email": "contact@tuftsmedicine.org",
+    "experience": 8,
+    "review_count": 724,
     "about_me": "Tufts Medicine brings together the best of academic medicine and community-based clinical care. Our preventative health and general screening networks are designed to offer accessible, top-tier diagnostic services, creating a deeply connected and compassionate healthcare experience for every patient we serve across the Boston area."
   },
   {
@@ -140,6 +160,8 @@
     "rating": 4.8,
     "phone": "+1 212 241 6500",
     "email": "info@mountsinai.org",
+    "experience": 46,
+    "review_count": 259,
     "about_me": "Located in the heart of New York City, The Mount Sinai Hospital is acclaimed internationally for its history of clinical innovation and exceptional patient care. Our tailored executive health and general check-up screenings utilize state-of-the-art diagnostics managed by leading specialists, committed to safeguarding your vital well-being."
   },
   {
@@ -153,6 +175,8 @@
     "rating": 4.9,
     "phone": "+1 617 726 2000",
     "email": "generalinfo@mgh.harvard.edu",
+    "experience": 26,
+    "review_count": 285,
     "about_me": ""
   },
   {
@@ -166,6 +190,8 @@
     "rating": 5.0,
     "phone": "+1 617 355 6000",
     "email": "international@childrens.harvard.edu",
+    "experience": 24,
+    "review_count": 909,
     "about_me": "Ranked consistently as the top pediatric hospital in the United States, Boston Children's Hospital is dedicated to advanced care for infants, children, and young adults. Through our International Center, we provide specialized complex surgical interventions and comprehensive pediatric screenings, offering hope and healing to families worldwide."
   },
   {
@@ -179,6 +205,8 @@
     "rating": 4.6,
     "phone": "+1 410 772 6500",
     "email": "feedback@medstar.net",
+    "experience": 18,
+    "review_count": 232,
     "about_me": ""
   },
   {
@@ -192,6 +220,8 @@
     "rating": 4.8,
     "phone": "+1 212 746 5454",
     "email": "appointments@weill.cornell.edu",
+    "experience": 14,
+    "review_count": 243,
     "about_me": "In partnership with NewYork-Presbyterian Hospital, Weill Cornell Medicine is at the forefront of patient-centric clinical training and advanced therapeutics. Our comprehensive outpatient general wellness screenings seamlessly integrate cutting-edge precision medicine with elite primary care directly in New York City."
   },
   {
@@ -205,6 +235,8 @@
     "rating": 4.9,
     "phone": "+1 212 305 2500",
     "email": "patientrelations@nyp.org",
+    "experience": 27,
+    "review_count": 428,
     "about_me": "NewYork-Presbyterian is one of the nation's most comprehensive, integrated academic healthcare delivery systems. Affiliated with two Ivy League medical schools, our hospitals provide unparalleled expertise in routine executive check-ups as well as highly complex multidisciplinary procedures, focused entirely on premium patient outcomes."
   },
   {
@@ -218,6 +250,8 @@
     "rating": 4.5,
     "phone": "+49 30 55180",
     "email": "berlin@sana.de",
+    "experience": 45,
+    "review_count": 469,
     "about_me": "Als einer der führenden privaten Gesundheitsdienstleister in Deutschland bieten die Sana Kliniken in Berlin eine erstklassige medizinische Versorgung. Unsere modernen Zentren für präventive Medizin und umfassende Check-up-Untersuchungen verknüpfen modernste Diagnostik mit einer familiären, dem Patienten zugewandten Atmosphäre für Ihre langfristige Gesundheit."
   },
   {
@@ -231,6 +265,8 @@
     "rating": 4.7,
     "phone": "+49 221 1625 900",
     "email": "koeln@dunyagoz.com",
+    "experience": 18,
+    "review_count": 462,
     "about_me": "Die Dünyagöz Augenklinik in Köln bringt jahrzehntelange ophthalmologische Spitzenkompetenz nach Deutschland. Ausgestattet mit modernsten Laser- und Diagnoseplattformen bieten wir ein umfassendes Behandlungsspektrum für sämtliche Augenerkrankungen – von Routine-Sehtests bis hin zu komplexen Netzhautoperationen für ein Leben mit klarer Sicht."
   },
   {
@@ -244,6 +280,8 @@
     "rating": 4.7,
     "phone": "+49 69 244 320",
     "email": "frankfurt@dunyagoz.com",
+    "experience": 34,
+    "review_count": 618,
     "about_me": "Mitten im Finanzzentrum von Frankfurt bietet die Dünyagöz Augenklinik erstklassige, spezialisierte Versorgung bei Fehlsichtigkeiten und Augenerkrankungen. Unser internationales Ärzteteam nutzt zukunftsweisende Technologien, um maßgeschneiderte refraktive Chirurgie und präzise Vorsorgeuntersuchungen in einer komfortablen Klinikumgebung durchzuführen."
   }
 ]

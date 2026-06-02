@@ -10,6 +10,8 @@
     "rating": 4.7,
     "phone": "+65 6222 3344",
     "email": "info@beecroft.sg",
+    "experience": 25,
+    "review_count": 77,
     "about_me": "Beecroft Animal Specialist & Emergency Hospital provides 24/7 state-of-the-art emergency care and advanced surgical treatment for your pet companions. Our expert team consists of internationally certified specialists dedicated to managing complex medical cases. We use advanced diagnostic methods and intensive care units to guarantee the highest safety standards. Your companion's health and comfort are our top priority around the clock."
   },
   {
@@ -23,6 +25,8 @@
     "rating": 4.2,
     "phone": "+1 905 222 3344",
     "email": "info@spencercreekvet.ca",
+    "experience": 5,
+    "review_count": 399,
     "about_me": "Located in Hamilton, Spencer Creek Animal Hospital offers comprehensive medical, dental, and surgical services for your family companions. We emphasize preventive care, regular health screenings, and tailored vaccination plans to ensure pets live a long and healthy life. Our compassionate veterinary team treats every patient with the same love and attention as our own animals. We aim to build lifelong relationships with local pet owners through open communication."
   },
   {
@@ -36,6 +40,8 @@
     "rating": 5.0,
     "phone": "+351 22 222 3344",
     "email": "contacto@linguadegato.pt",
+    "experience": 13,
+    "review_count": 145,
     "about_me": "Língua de Gato is a prestigious veterinary clinic in Porto, designed exclusively to meet the unique health needs of cats. Our expert team closely analyzes feline behavior to provide a stress-free, quiet, and calming environment for your feline friends. From routine check-ups to nutritional counseling and complex internal medicine, we manage everything with expert precision. Discover a specialized veterinary space where your cat truly comes first."
   },
   {
@@ -49,6 +55,8 @@
     "rating": 3.9,
     "phone": "+1 905 222 3345",
     "email": "briarwood@vethospital.ca",
+    "experience": 12,
+    "review_count": 91,
     "about_me": "Briarwood Animal Hospital provides high-quality veterinary services to dogs, cats, and small pets in the Hamilton area. Our modern facility features fully equipped surgical suites, digital X-rays, and an in-house laboratory for rapid diagnosis. We focus on gentle handling techniques to minimize anxiety that may arise during exams and treatments. Our knowledgeable staff is always happy to support pet owners with practical behavior and health advice."
   },
   {
@@ -62,6 +70,8 @@
     "rating": 4.5,
     "phone": "+1 905 222 3346",
     "email": "stoneyridge@vethospital.ca",
+    "experience": 28,
+    "review_count": 72,
     "about_me": "At Stoney Ridge Animal Hospital, we are deeply passionate about keeping your beloved pets healthy, active, and happy. We offer a comprehensive range of veterinary services, including proactive health care for senior pets and advanced dental treatments. Our team continuously updates their training to incorporate the latest medical advancements into our daily practice. We pride ourselves on creating a warm and welcoming community environment for both pets and their owners."
   },
   {
@@ -75,6 +85,8 @@
     "rating": 4.1,
     "phone": "+1 905 222 3347",
     "email": "gagemount@vethospital.ca",
+    "experience": 26,
+    "review_count": 399,
     "about_me": "Gagemount Animal Hospital has proudly served the local pet community for many years with reliable and professional veterinary care. Our services cover a wide range, from essential parasite prevention to advanced diagnostic testing and soft tissue surgeries. We adopt a collaborative approach, working closely with families to choose the treatment paths that best fit their lifestyle. You can trust our experienced and caring veterinarians to guide your pet through every stage of life."
   },
   {
@@ -88,6 +100,8 @@
     "rating": 4.6,
     "phone": "+27 21 222 3344",
     "email": "montevista@citivet.co.za",
+    "experience": 22,
+    "review_count": 64,
     "about_me": "Citivet Monte Vista serves as a trusted center of excellence for pet health and well-being in Cape Town. We offer fully integrated veterinary care, pairing medical treatments with an on-site, fully stocked premium pet food and accessory store. Our facility features advanced diagnostic suites alongside a specialized team dedicated to clinical precision and gentle animal handling. We aim to make every visit informative, positive, and seamless for your family."
   },
   {
@@ -101,6 +115,8 @@
     "rating": 4.8,
     "phone": "+27 21 222 3345",
     "email": "info@exoticvet.co.za",
+    "experience": 23,
+    "review_count": 236,
     "about_me": "Exotic Vet possesses unique expertise in the medical and surgical care of birds, reptiles, amphibians, and small mammals. We understand that exotic species require highly sensitive environmental controls, specialized diagnostic methods, and custom anesthesia parameters. Our purpose-built facility in Cape Town offers species-specific housing areas to keep non-traditional pets safe and comfortable. You can trust our expert veterinary team for specialized advice on advanced care and nutrition."
   },
   {
@@ -114,6 +130,8 @@
     "rating": 4.4,
     "phone": "+1 617 222 3344",
     "email": "boston@vetcare.com",
+    "experience": 6,
+    "review_count": 35,
     "about_me": "Boston Veterinary Care delivers compassionate clinical services right in the heart of the city. We combine standard preventive wellness check-ups with specialized diagnostic testing, professional dental cleanings, and targeted surgeries. Our dedicated hospital staff provides personalized attention tailored to the distinct personality of every companion visiting our clinic. We are committed to keeping your pets healthy with exceptional and empathetic medical care."
   },
   {
@@ -127,6 +145,8 @@
     "rating": 4.0,
     "phone": "+1 905 222 3348",
     "email": "eastmountain@vethospital.ca",
+    "experience": 7,
+    "review_count": 131,
     "about_me": "East Mountain Animal Hospital offers comprehensive, professional medical management for dogs and cats across Hamilton. Our veterinary facility prioritizes advanced preventive treatments, early disease screenings, and specialized soft tissue operations. We foster an inclusive and supportive clinic environment where pet owners feel completely comfortable asking questions. Our veterinarians focus on delivering customized health plans to ensure maximum longevity and comfort."
   },
   {
@@ -140,6 +160,8 @@
     "rating": 4.3,
     "phone": "+1 905 222 3349",
     "email": "info@beattiepethospital.ca",
+    "experience": 12,
+    "review_count": 278,
     "about_me": "Beattie Pet Hospital delivers multi-disciplinary veterinary solutions alongside a highly responsive and patient-centric care model. Our Hamilton branch is equipped with modern diagnostic testing equipment and full-scale surgical capabilities. We emphasize accessible and comprehensive care aimed at lifelong wellness and the effective management of chronic conditions. Our team is always ready to assist your family with clear guidance and deep veterinary expertise."
   },
   {
@@ -153,6 +175,8 @@
     "rating": 4.7,
     "phone": "+27 21 222 3346",
     "email": "alphen@vethospital.co.za",
+    "experience": 24,
+    "review_count": 33,
     "about_me": "Alphen Veterinary Hospital is an established and fully equipped pet health center operating in Cape Town. We manage everything from routine vaccinations and puppy check-ups to comprehensive orthopedic operations. Our modern facility includes comfortable recovery wards and top-tier internal medicine monitoring systems. We focus on building lasting relationships rooted in trust, excellence, and a shared love for pets."
   },
   {
@@ -166,6 +190,8 @@
     "rating": 4.5,
     "phone": "+44 131 222 3344",
     "email": "info@dundasvetgroup.co.uk",
+    "experience": 22,
+    "review_count": 121,
     "about_me": "Dundas Veterinary Group successfully serves the Edinburgh pet community by providing family-oriented pet health solutions. Our practice is fully equipped to perform complex medical diagnostics, dental restoration procedures, and preventive therapies. We maintain a friendly, calm, and professional atmosphere to help anxious pets feel completely at ease. Our veterinarians are highly passionate about patient education and supporting responsible pet ownership."
   },
   {
@@ -179,6 +205,8 @@
     "rating": 4.2,
     "phone": "+1 416 222 3344",
     "email": "beaches@vethospital.ca",
+    "experience": 27,
+    "review_count": 352,
     "about_me": "Beaches Animal Hospital offers tailored veterinary medical attention in a highly supportive and modern Toronto neighborhood clinic. We provide general check-ups, precise microchipping, weight management guidance, and digital radiography services. Our facility features a dedicated, empathetic team that passionately advocates for early preventive screenings. We look forward to partnering with you to keep your family companions fit and comfortable."
   },
   {
@@ -192,6 +220,8 @@
     "rating": 4.6,
     "phone": "+420 603 545 022",
     "email": "info@vetklinika.cz",
+    "experience": 27,
+    "review_count": 299,
     "about_me": "Veterinární Klinika in Ostrava offers top-tier, evidence-based diagnostic assessments and targeted treatments for pets. Our professional facility is managed by competent physicians utilizing modern internal medicine technology. We are fully dedicated to providing a clinical environment focused on patient safety, pain management, and rapid recovery. You can contact us for reliable health support specifically tailored to your animal's lifestyle."
   },
   {
@@ -205,6 +235,8 @@
     "rating": 4.4,
     "phone": "+1 905 333 4455",
     "email": "info@burlingtonvet.ca",
+    "experience": 18,
+    "review_count": 132,
     "about_me": "Burlington Veterinary provides fully equipped medical, dental, and surgical solutions for local pets. Our clinic utilizes advanced appointment systems and modern exam rooms to respect your time and deliver focused care. We place a heavy emphasis on preventive health strategies to address health issues before they arise. You can trust our experienced and friendly veterinary team to protect your animal throughout all their adventures."
   },
   {
@@ -218,6 +250,8 @@
     "rating": 3.8,
     "phone": "+1 905 222 3350",
     "email": "chedoke@vethospital.ca",
+    "experience": 19,
+    "review_count": 321,
     "about_me": "Chedoke Animal Hospital specializes in accessible and reliable pet care for pet owners in Hamilton. Our clinical scope includes regular health monitoring, soft tissue surgeries, and therapeutic recovery programs. We work patiently with animals of all sizes and temperaments to ensure a stress-free examination experience. We look forward to meeting your family and securing your pet's ongoing health."
   },
   {
@@ -231,6 +265,8 @@
     "rating": 4.1,
     "phone": "+1 416 222 3355",
     "email": "central@torontovetclinic.ca",
+    "experience": 13,
+    "review_count": 434,
     "about_me": "Toronto Central Animal Clinic provides highly responsive medical care right in the bustling heart of Toronto. Our modern practice focuses heavily on preventive care plans, routine microchipping, and targeted diagnostic testing. We approach each patient with a balanced combination of medical precision and warm, personal attention. Our team is fully committed to helping urban pets lead long and exceptionally healthy lives."
   },
   {
@@ -244,6 +280,8 @@
     "rating": 4.5,
     "phone": "+1 905 222 3351",
     "email": "bluecross@vethospital.ca",
+    "experience": 5,
+    "review_count": 408,
     "about_me": "Blue Cross Animal Hospital brings advanced veterinary solutions and comprehensive medical services to the Hamilton area. We offer high-resolution diagnostic radiography, safe surgical anesthesia monitoring, and specialized treatment options. Our physicians prioritize open communication to keep you fully informed about your pet's development. We strive to create an inclusive and comforting space that helps families feel completely supported."
   },
   {
@@ -257,6 +295,8 @@
     "rating": 4.9,
     "phone": "+41 44 222 3344",
     "email": "letzigrund@vetzentrum.ch",
+    "experience": 30,
+    "review_count": 101,
     "about_me": "VET Zentrum Zürich Letzigrund offers world-class veterinary precision and specialized treatment planning in Zurich. Our clinic incorporates advanced laboratory systems and specialized surgical techniques to resolve complex medical issues. We focus on continuous education and clinical excellence to deliver top-tier animal care. Our staff is bilingual, welcoming local and international pet owners with exceptional Swiss standards."
   },
   {
@@ -270,6 +310,8 @@
     "rating": 4.3,
     "phone": "+90 216 111 2233",
     "email": "baris@veterinerklinigi.com",
+    "experience": 27,
+    "review_count": 236,
     "about_me": "Barış Veteriner Kliniği provides comprehensive health services in Istanbul to ensure your pet companions lead a healthy and happy life. With our expert veterinarians, we meticulously perform routine checks, surgical interventions, and modern laboratory tests. We aim to minimize our companions' fears by creating a loving and stress-free clinic environment. We are always by your side with our knowledge and modern technological infrastructure."
   },
   {
@@ -283,6 +325,8 @@
     "rating": 4.7,
     "phone": "+90 216 222 33 44",
     "email": "kosuyolu@vet216.com",
+    "experience": 15,
+    "review_count": 162,
     "about_me": "Vet216 Koşuyolu provides 24/7 uninterrupted emergency response and expert veterinary solutions for your pets. With our advanced intensive care units and modern operating rooms, we deliver the fastest support in critical situations. Through our preventive medicine practices, we identify the illness risks of our companions in advance and take the necessary precautions. Your companions are in safe hands with our professional and compassionate team."
   },
   {
@@ -296,6 +340,8 @@
     "rating": 4.6,
     "phone": "+90 216 333 4455",
     "email": "caddebostan@vetpoliklinik.com",
+    "experience": 9,
+    "review_count": 130,
     "about_me": "Caddebostan Veteriner Polikliniki combines modern medical technologies with a warm family environment in the Kadıköy region. Thanks to our dedicated examination areas for cats and dogs, we ensure our companions experience a stress-free treatment process. We place great importance on early diagnosis with our oral and dental health, digital X-ray, and detailed check-up services. We are here to improve the quality of life for your pet companion."
   },
   {
@@ -309,6 +355,8 @@
     "rating": 4.8,
     "phone": "+90 216 444 5566",
     "email": "info@anatoliaanimalhospital.com",
+    "experience": 29,
+    "review_count": 192,
     "about_me": "Anatolia Animal Hospital operates in Istanbul with a fully equipped veterinary hospital infrastructure adhering to international standards. We offer in-depth diagnosis and treatment options across multiple specialties such as internal medicine, orthopedics, cardiology, and oncology. With our advanced imaging center, we can successfully resolve even the most complex cases. Our fundamental mission is to provide our loyal companions with the highest level of medical care they deserve."
   },
   {
@@ -322,6 +370,8 @@
     "rating": 5.0,
     "phone": "+351 22 333 4455",
     "email": "geral@quintadocovelo.pt",
+    "experience": 8,
+    "review_count": 67,
     "about_me": "Clínica Veterinária Quinta do Covelo in Porto offers a peaceful and highly advanced medical environment for pets. Our clinical specialties include personalized nutrition plans, comprehensive vaccination applications, and precise soft tissue micro-surgeries. We continuously focus on gentle handling techniques that help animals feel completely comfortable and safe. You can trust our highly competent veterinary team to support your companion's ongoing vitality."
   },
   {
@@ -335,6 +385,8 @@
     "rating": 4.2,
     "phone": "+1 905 222 3352",
     "email": "ancaster@vethospital.ca",
+    "experience": 17,
+    "review_count": 69,
     "about_me": "Ancaster Animal Hospital provides personalized veterinary solutions built entirely on clinical expertise and genuine compassion. Located in Hamilton, our clinic offers comprehensive wellness exams, preventive screening tests, and specialized dentistry services. We understand that each pet is an individual family member with unique care needs. Our supportive veterinary professionals are always ready to guide you."
   },
   {
@@ -348,6 +400,8 @@
     "rating": 4.4,
     "phone": "+48 61 222 3344",
     "email": "kontakt@sunvet.pl",
+    "experience": 16,
+    "review_count": 453,
     "about_me": "SunVet in Poznań combines modern veterinary practices with a dedicated, empathetic pet care staff. Our facility targets proactive diagnostic medicine, continuous routine health care, and soft tissue surgery. We work hard to maintain a warm and inviting atmosphere to ensure pets feel safe and comfortable during examinations. We are passionate about working closely with owners to extend the lifespan of their pets."
   },
   {
@@ -361,6 +415,8 @@
     "rating": 4.0,
     "phone": "+1 905 222 3353",
     "email": "stoneycreek@vethospital.ca",
+    "experience": 16,
+    "review_count": 329,
     "about_me": "Animal Hospital Of Stoney Creek is fully dedicated to keeping your family companions healthy and active throughout all stages of life. We offer high-quality preventive veterinary care, advanced diagnostic testing, and comprehensive standard surgeries. Our Hamilton practice prides itself on creating a collaborative experience that respects your input. Experience a reliable, friendly care model completely tailored to your animal's lifestyle."
   }
 ]

@@ -21,11 +21,19 @@ struct CustomSearchBar: View {
     
     // Placeholder seçenekleri
     private var placeholderOptions: [(icon: String, text: String)] {
-        [
-            ("stethoscope", String(localized: "Find the right doctor for you")),
-            ("cross.case.fill", String(localized: "Find the right hospital for you")),
-            ("pawprint.fill", String(localized: "Find the nearest vet for you"))
-        ]
+        if languageManager.currentLanguage == .english {
+            return [
+                ("stethoscope", "Find the right doctor for you"),
+                ("cross.case.fill", "Find the right hospital for you"),
+                ("pawprint.fill", "Find the nearest vet for you")
+            ]
+        } else {
+            return [
+                ("stethoscope", "Sizin için doğru doktoru bulun"),
+                ("cross.case.fill", "Sizin için doğru hastaneyi bulun"),
+                ("pawprint.fill", "Size en yakın veterineri bulun")
+            ]
+        }
     }
     
     private var currentPlaceholder: (icon: String, text: String) {
@@ -146,3 +154,4 @@ struct CustomSearchBar: View {
     .padding(.vertical, 50)
     .environment(LanguageManager())
 }
+

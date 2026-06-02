@@ -23,6 +23,10 @@ struct HomePage: View {
     // Settings state
     @State private var showSettings = false
     
+    // Detail page navigation
+    @State private var selectedProvider: Provider?
+    @State private var selectedProviderImage: String?
+    
     var body: some View {
         // @Bindable wrapper ile viewModel'i sarmala
         @Bindable var bindableViewModel = viewModel
@@ -160,6 +164,9 @@ struct HomePage: View {
                                 GridItem(.flexible(), spacing: 15)
                             ], spacing: 15) {
                                 ForEach(Array(viewModel.filteredProviders.enumerated()), id: \.element.id) { index, provider in
+                                    // Grid Card - providerImage'ı provider tipine göre hesapla
+                                    let imageName = getRandomImage(for: index, providerType: provider.providerType)
+                                    
                                     ProviderGridCard(
                                         providerName: provider.name,
                                         category: provider.category,
@@ -167,8 +174,13 @@ struct HomePage: View {
                                         rating: provider.rating,
                                         providerType: provider.providerType,
                                         index: index,
-                                        providerImage: nil
+                                        providerImage: imageName
                                     )
+                                    .onTapGesture {
+                                        print("🔘 Provider tapped: \(provider.name)")
+                                        selectedProviderImage = imageName
+                                        selectedProvider = provider
+                                    }
                                     .onAppear {
                                         // Scroll ile son 2 item'e gelince bir sonraki sayfayı yükle
                                         if index == viewModel.filteredProviders.count - 2 {
@@ -206,7 +218,6 @@ struct HomePage: View {
                 .onChange(of: selectedTab) { oldValue, newValue in
                     updateCategoryFromTab(newValue)
                 }
-                .offset(y: 20)
         }
         .ignoresSafeArea(.keyboard)
         .onAppear {
@@ -224,7 +235,7 @@ struct HomePage: View {
         .sheet(isPresented: $showFilterDropdown) {
             if let filter = activeFilter {
                 FilterDropdown(
-                    title: String(localized: "Select") + " " + filter.displayName,
+                    title: filter.displayText,
                     options: filterOptions,
                     selectedValue: $bindableViewModel.selectedFilters[filter],
                     onSelect: { value in
@@ -238,6 +249,12 @@ struct HomePage: View {
                 .presentationDetents([.height(600), .large])
                 .presentationDragIndicator(.visible)
             }
+        }
+        .sheet(item: $selectedProvider) { provider in
+            ProviderDetailView(
+                provider: provider,
+                providerImage: selectedProviderImage
+            )
         }
         .sheet(isPresented: $showSettings) {
             SettingsView()
@@ -256,6 +273,22 @@ struct HomePage: View {
         case .vet:
             viewModel.selectedCategory = .vet
         }
+    }
+    
+    // Provider tipine göre rastgele resim ismi getir
+    private func getRandomImage(for index: Int, providerType: ProviderGridCard.ProviderType) -> String? {
+        let imageNames: [String]
+        
+        switch providerType {
+        case .doctor:
+            imageNames = ["doc1", "doc2", "doc3", "doc4", "doc5"]
+        case .hospital:
+            imageNames = ["hosp1", "hosp2", "hosp3", "hosp4", "hosp5"]
+        case .vet:
+            imageNames = ["vet1", "vet2", "vet3", "vet4", "vet5"]
+        }
+        
+        return imageNames[index % imageNames.count]
     }
 }
 

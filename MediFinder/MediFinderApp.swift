@@ -16,6 +16,8 @@ struct MediFinderApp: App {
     // Dil değiştiğinde tüm view'ı yeniden oluşturmak için
     @State private var localeID = UUID()
     
+    @State private var showSplash: Bool = true
+    
     init() {
         // ViewModel'e LanguageManager'ı bağla
         _providerViewModel = State(initialValue: ProviderViewModel())
@@ -23,19 +25,31 @@ struct MediFinderApp: App {
     
     var body: some Scene {
         WindowGroup {
-            HomePage()
-                .environment(languageManager)
-                .environment(providerViewModel)
-                .environment(\.locale, languageManager.currentLanguage.locale)
-                .id(localeID) // Force view refresh on language change
-                .onAppear {
-                    // Dil değiştiğinde callback
-                    languageManager.onLanguageChanged = {
-                        localeID = UUID()
-                        // Provider'ları yeniden yükle
-                        providerViewModel.loadProviders()
+            Group {
+                if showSplash {
+                    SplashScreenView()
+                        .transition(.opacity)
+                } else {
+                    HomePage()
+                        .transition(.opacity)
+                }
+            }
+            .environment(languageManager)
+            .environment(providerViewModel)
+            .environment(\.locale, languageManager.currentLanguage.locale)
+            .id(localeID)
+            .onAppear {
+                languageManager.onLanguageChanged = {
+                    localeID = UUID()
+                    providerViewModel.loadProviders()
+                }
+                // Hide splash after 2 seconds
+                DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+                    withAnimation(.easeInOut(duration: 0.3)) {
+                        showSplash = false
                     }
                 }
+            }
         }
     }
 }

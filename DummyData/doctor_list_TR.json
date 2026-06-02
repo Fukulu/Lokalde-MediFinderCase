@@ -10,7 +10,9 @@
     "bio": "Estetik Plastik Cerrahi Uzmanı. Rekonstrüktif ve estetik cerrahide 15 yılı aşkın deneyim.",
     "about_me": "Estetik ve rekonstrüktif cerrahi alanında 15 yılı aşkın köklü bir deneyime sahibim. Bursa'da yer alan kliniğimde, hastalarımın doğal güzelliklerini ön planaacak kişiye özel estetik çözümler ve yenilikçi cerrahi teknikler sunuyorum.",
     "phone": "+90 224 123 45 67",
-    "email": "ufuk.aydin@example.com"
+    "email": "ufuk.aydin@example.com",
+    "experience": 4,
+    "review_count": 114
   },
   {
     "id": "tr_2",
@@ -23,7 +25,9 @@
     "bio": "Uluslararası deneyime sahip estetik ve plastik cerrahi uzmanı. Özellikle yüz estetiğine odaklanmıştır.",
     "about_me": "Uluslararası standartlarda edindiğim bilgi ve birikimle estetik cerrahi alanında hizmet vermekteyim. Özellikle yüz estetiği, yaşlanma karşıtı uygulamalar ve dinamik yüz hatları tasarımı üzerine odaklanarak hastalarıma modern çözümler sunuyorum.",
     "phone": "+90 212 987 65 43",
-    "email": "ozge.ergun@example.com"
+    "email": "ozge.ergun@example.com",
+    "experience": 25,
+    "review_count": 25
   },
   {
     "id": "tr_3",
@@ -36,7 +40,9 @@
     "bio": "Vücut şekillendirme ve meme estetiğinde uzmanlaşmış, modern plastik cerrahi çözümleri sunmaktadır.",
     "about_me": "Vücut şekillendirme ve meme estetiği operasyonlarında uzmanlaşmış bir plastik cerrahi uzmanıyım. Bursa'daki kliniğimde, güncel tıp teknolojilerini kullanarak hastalarımın estetik beklentilerini en güvenli ve modern cerrahi yaklaşımlarla karşılıyorum.",
     "phone": "+90 224 765 43 21",
-    "email": "sezi.ceylan@example.com"
+    "email": "sezi.ceylan@example.com",
+    "experience": 7,
+    "review_count": 146
   },
   {
     "id": "tr_custom_1",
@@ -49,7 +55,9 @@
     "bio": "Estetik diş hekimliği protokollerinde 10 yıllık klinik deneyim ile gülüş tasarımı ve implant tedavilerinde uzmanlaşmıştır.",
     "about_me": "Estetik diş hekimliği protokollerinde 10 yıllık klinik deneyime sahip bir diş hekimiyim. İstanbul'daki muayenehanemde dijital gülüş tasarımı, porselen lamine uygulamaları ve implant tedavileriyle hastalarıma sağlıklı ve özgüvenli gülüşler kazandırıyorum.",
     "phone": "+90 212 555 44 11",
-    "email": "mehmet.yilmaz@example.com"
+    "email": "mehmet.yilmaz@example.com",
+    "experience": 3,
+    "review_count": 235
   },
   {
     "id": "tr_custom_2",
@@ -62,7 +70,9 @@
     "bio": "Kişiye özel beslenme yönetimi, fonksiyonel tıp diyetisyenliği ve sürdürülebilir yaşam tarzı danışmanlığı.",
     "about_me": "Fonksiyonel tıp diyetisyenliği ve sürdürülebilir yaşam tarzı danışmanlığı alanlarında çalışıyorum. Antalya'da bireysel metabolik ihtiyaçlara, koruyucu sağlık panellerine ve kronik inflamasyonu azaltmaya yönelik kişiye özel beslenme programları hazırlamaktayım.",
     "phone": "+90 242 111 22 33",
-    "email": "buse.celik@example.com"
+    "email": "buse.celik@example.com",
+    "experience": 25,
+    "review_count": 95
   },
   {
     "id": "tr_4",
@@ -75,7 +85,9 @@
     "bio": "Estetik ve Plastik Cerrahide güncel teknolojileri kullanarak hastalarına mikrocerrahi çözümler sunmaktadır.",
     "about_me": "",
     "phone": "+90 224 555 44 33",
-    "email": "sukru.isler@example.com"
+    "email": "sukru.isler@example.com",
+    "experience": 25,
+    "review_count": 18
   },
   {
     "id": "tr_5",
@@ -88,7 +100,9 @@
     "bio": "Bursa'da ameliyatsız cilt gençleştirme ve bütünsel estetik cerrahi yaklaşımlarıyla hizmet vermektedir.",
     "about_me": "Plastik cerrahide bütünsel estetik yaklaşımlarını savunuyor, ameliyatsız cilt gençleştirme ve medikal estetik prosedürlerini cerrahi deneyimimle harmanlıyorum. Bursa'da yaşlanma belirtilerini geciktirmek ve doğal hatları korumak isteyen hastalarıma hizmet vermekteyim.",
     "phone": "+90 224 888 99 00",
-    "email": "aylin.kaplan@example.com"
+    "email": "aylin.kaplan@example.com",
+    "experience": 17,
+    "review_count": 152
   },
   {
     "id": "tr_6",
@@ -101,7 +115,9 @@
     "bio": "Zigomatik implantlar konusunda ileri düzey eğitime sahip, çene cerrahisi ve plastik cerrahiyi harmanlayan bir uzman.",
     "about_me": "",
     "phone": "+90 224 111 22 33",
-    "email": "kerem.atasoy@example.com"
+    "email": "kerem.atasoy@example.com",
+    "experience": 17,
+    "review_count": 245
   },
   {
     "id": "tr_7",
@@ -114,7 +130,9 @@
     "bio": "İstanbul'daki kendi özel kliniğinde estetik ve saç ekimi operasyonları yürüten kıdemli plastik cerrah.",
     "about_me": "İstanbul'daki özel kliniğimde uzun yıllardır saç ekimi, ileri düzey estetik cerrahi operasyonları ve medikal uygulamalar gerçekleştirmekteyim. Detaylı planlama ve hasta konforunu odağa alan yaklaşımımla her aşamada güvenli bir süreç yürütmeyi hedefliyorum.",
     "phone": "+90 212 444 55 66",
-    "email": "cem.bektas@example.com"
+    "email": "cem.bektas@example.com",
+    "experience": 10,
+    "review_count": 108
   },
   {
     "id": "tr_8",
@@ -127,7 +145,9 @@
     "bio": "Antalya'da sağlık turizmi odaklı çalışan, uluslararası sertifikalı estetik ve plastik cerrahi uzmanı.",
     "about_me": "Uluslararası sertifikalı bir estetik ve plastik cerrahi uzmanı olarak, Antalya'da sağlık turizmi odaklı çalışıyorum. Dünyanın dört bir yanından gelen hastalarıma en yüksek tıbbi standartlarda, modern altyapıya sahip hastanelerde konforlu ve profesyonel estetik çözümler sunuyorum.",
     "phone": "+90 242 333 44 55",
-    "email": "feridun.elmas@example.com"
+    "email": "feridun.elmas@example.com",
+    "experience": 23,
+    "review_count": 71
   },
   {
     "id": "usa_1",
@@ -140,7 +160,9 @@
     "bio": "Alpharetta bölgesinde uzun yıllardır bütünsel sağlık, koruyucu tıp ve aile hekimliği alanlarında hizmet vermektedir.",
     "about_me": "Uzun yıllardır Alpharetta'da bütünsel aile sağlığı ve koruyucu tıp alanlarına odaklanarak hekimlik yapıyorum. Amacım, hastalarımla güçlü ortaklıklar kurarak sağlık yolculuklarını proaktif bir şekilde yönetmelerine ve uzun vadeli, zinde bir yaşama ulaşmalarına yardımcı olmaktır.",
     "phone": "+1 770 555 0192",
-    "email": "spencer.hawkins@example.com"
+    "email": "spencer.hawkins@example.com",
+    "experience": 12,
+    "review_count": 208
   },
   {
     "id": "usa_2",
@@ -153,7 +175,9 @@
     "bio": "Akademik kariyere sahip, robotik cerrahi, diz ve kalça protezi konularında uzmanlaşmış ortopedi cerrahı.",
     "about_me": "",
     "phone": "+1 305 555 0143",
-    "email": "mamun.rashid@example.com"
+    "email": "mamun.rashid@example.com",
+    "experience": 14,
+    "review_count": 61
   },
   {
     "id": "usa_3",
@@ -166,7 +190,9 @@
     "bio": "Harvard mezunu, ödüllü plastik cerrah. San Francisco'daki 77 Plastic Surgery kliniğinin kurucusu.",
     "about_me": "Harvard eğitimli ve ödüllü bir plastik cerrah olarak, estetik bakımın en üst düzeyini sunmak amacıyla San Francisco'da 77 Plastic Surgery'yi kurdum. Pratiğimde, hastalarıma güzel ve doğal görünümlü sonuçlar sunmak için en son cerrahi yenilikleri derinlemesine kişiselleştirilmiş bir yaklaşımla harmanlıyorum.",
     "phone": "+1 415 555 0177",
-    "email": "larry.fan@example.com"
+    "email": "larry.fan@example.com",
+    "experience": 17,
+    "review_count": 232
   },
   {
     "id": "usa_4",
@@ -179,7 +205,9 @@
     "bio": "Çift bordrolu (double board-certified) cerrah, kraniyofasiyal cerrahi ve estetik yüz prosedürlerinde öncü.",
     "about_me": "İleri düzey kraniyofasiyal cerrahi ve sofistike estetik yüz prosedürlerinde uzmanlaşmış, çift uzmanlık sertifikasına (double board-certified) sahip bir cerrahım. San Francisco'da yer alan muayenehanemde, bir yandan karmaşık yapısal sorunları çözerken diğer yandan hastalarım için zarif ve uyumlu bir yüz estetiği sağlamaya kendimi adadım.",
     "phone": "+1 415 555 0188",
-    "email": "navid.p@example.com"
+    "email": "navid.p@example.com",
+    "experience": 10,
+    "review_count": 259
   },
   {
     "id": "usa_custom_1",
@@ -192,7 +220,9 @@
     "bio": "Bilişsel davranışçı terapi (BDT) uzmanı. Anksiyete bozuklukları ve stres yönetimi üzerine seanslar düzenlemektedir.",
     "about_me": "Chicago'da lisanslı bir klinik psikolog olarak, Kanıta Dayalı Bilişsel Davranışçı Terapi (BDT) alanında uzmanlaştım. Klinik pratiğimde bireylerin anksiyete bozuklukları, kronik stres ve karmaşık yaşam geçişleriyle başa çıkabilmeleri için etkili mekanizmalar geliştirmelerine yardımcı oluyorum.",
     "phone": "+1 312 555 0944",
-    "email": "sarah.j@example.com"
+    "email": "sarah.j@example.com",
+    "experience": 12,
+    "review_count": 72
   },
   {
     "id": "usa_5",
@@ -205,7 +235,9 @@
     "bio": "San Francisco'da kronik hastalık yönetimi ve genel iç hastalıkları taramaları için hasta kabul etmektedir.",
     "about_me": "",
     "phone": "+1 415 555 0122",
-    "email": "melissa.m@example.com"
+    "email": "melissa.m@example.com",
+    "experience": 7,
+    "review_count": 76
   },
   {
     "id": "usa_6",
@@ -218,7 +250,9 @@
     "bio": "Pacific Heights Plastic Surgery'nin kurucusu. Gerçek zamanlı fiyatlandırma ve minimal invaziv estetik uzmanı.",
     "about_me": "San Francisco'daki Pacific Heights Plastic Surgery'nin kurucusu olarak, sağlık hizmetlerinde gerçek zamanlı fiyat şeffaflığına öncülük ettim. Klinik odak noktam, hastalarıma minimum iyileşme süresiyle olağanüstü ve doğal sonuçlar sunan son teknoloji, minimal invaziv estetik prosedürlerdir.",
     "phone": "+1 415 555 0150",
-    "email": "jonathan.kaplan@example.com"
+    "email": "jonathan.kaplan@example.com",
+    "experience": 18,
+    "review_count": 261
   },
   {
     "id": "usa_7",
@@ -231,7 +265,9 @@
     "bio": "Chicago'da medikal estetik, dermatolojik kontroller ve genel pratisyenlik hizmetleri sunmaktadır.",
     "about_me": "Chicago'da yürüttüğüm çok yönlü tıbbi pratiğimde; düzenli dermatolojik sağlık taramalarına, kişiye özel yaşlanma karşıtı medikal estetik uygulamalarına ve birinci basamak klinik bakıma odaklanıyorum. Kapsamlı sağlık taramaları yoluyla hastalarımın hem en iyi şekilde görünmelerine hem de kendilerini en iyi şekilde hissetmelerine yardımcı olmayı amaçlıyorum.",
     "phone": "+1 312 555 0166",
-    "email": "vladimir.p@example.com"
+    "email": "vladimir.p@example.com",
+    "experience": 8,
+    "review_count": 107
   },
   {
     "id": "usa_8",
@@ -244,7 +280,9 @@
     "bio": "Kök hücre tedavileri ve rejeneratif tıbbı kalp cerrahisi teknikleriyle birleştiren yenilikçi hekim.",
     "about_me": "",
     "phone": "+1 904 555 0134",
-    "email": "eric.weiss@example.com"
+    "email": "eric.weiss@example.com",
+    "experience": 15,
+    "review_count": 259
   },
   {
     "id": "de_1",
@@ -257,7 +295,9 @@
     "bio": "Berlin'deki modern kliniğinde meme cerrahisi ve yüz estetiğine odaklanarak üst düzey estetik çözümler sunmaktadır.",
     "about_me": "Berlin'deki modern pratiğimde en üst düzeyde, seçkin estetik çözümler sunuyorum. Klinik odak noktam, hastalarımın doğal ışıltısını ve ifadesini vurgulamak adına fonksiyonel ve estetik meme cerrahisinin yanı sıra harmonik yüz tedavileridir.",
     "phone": "+49 30 555 9876",
-    "email": "alexandra.b@example.com"
+    "email": "alexandra.b@example.com",
+    "experience": 6,
+    "review_count": 300
   },
   {
     "id": "de_2",
@@ -270,7 +310,9 @@
     "bio": "HealthTravels bünyesinde uluslararası hastalara hizmet veren omurga cerrahisi ve mikro-nöroşirürji uzmanı.",
     "about_me": "Omurga cerrahisi ve mikro-nöroşirürji uzmanı olarak Frankfurt'ta geniş bir yelpazedeki karmaşık nörolojik hastalıkları tedavi etmekteyim. HealthTravels aracılığıyla düzenli olarak uluslararası hastaları kabul ediyor ve hızlı bir iyileşme süreci için minimal invaziv tedavi yöntemleri sunuyorum.",
     "phone": "+49 69 555 1234",
-    "email": "clemens.weber@example.com"
+    "email": "clemens.weber@example.com",
+    "experience": 10,
+    "review_count": 290
   },
   {
     "id": "de_3",
@@ -283,7 +325,9 @@
     "bio": "Aesthetik Berlin kliniğinde vücut şekillendirme, liposuction ve rekonstrüktif cerrahi uzmanı.",
     "about_me": "",
     "phone": "+49 30 555 4321",
-    "email": "niklas.noack@example.com"
+    "email": "niklas.noack@example.com",
+    "experience": 24,
+    "review_count": 176
   },
   {
     "id": "de_custom_1",
@@ -296,7 +340,9 @@
     "bio": "Küçük hayvan ve evcil hayvan cerrahisi, koruyucu aşılama ve evcil hayvan sağlığı kontrolü prosedürlerinde uzman.",
     "about_me": "Düsseldorf'ta deneyimli bir veteriner hekim olarak evcil hayvanlarınızın refahı ve sağlığı benim için her şeyden önce gelir. Kliniğim, tüylü dostlarınızın uzun ve sağlıklı bir yaşam sürmelerini sağlamak adına küçük hayvan cerrahisi, koruyucu sağlık taramaları ve bireysel aşılama programları konusunda uzmanlaşmıştır.",
     "phone": "+49 211 555 4422",
-    "email": "hans.mueller@example.com"
+    "email": "hans.mueller@example.com",
+    "experience": 6,
+    "review_count": 84
   },
   {
     "id": "de_4",
@@ -309,7 +355,9 @@
     "bio": "Düsseldorf'taki Privatklinik Im Kö-Bogen'de seçkin hastalar için premium plastik ve estetik cerrahi hizmetleri.",
     "about_me": "Düsseldorf'taki özel kliniğimiz Privatklinik Im Kö-Bogen'de birinci sınıf plastik ve estetik cerrahi hizmetleri sunuyorum. Amacım, hassas operasyonel prosedürler ve en modern tıbbi donanımları kullanarak, yüksek beklentileri olan hastalarım için en üst düzeyde kişiselleştirilmiş sonuçlar elde etmektir.",
     "phone": "+49 211 555 6789",
-    "email": "oliver.s@example.com"
+    "email": "oliver.s@example.com",
+    "experience": 20,
+    "review_count": 131
   },
   {
     "id": "de_5",
@@ -322,7 +370,9 @@
     "bio": "Frankfurt merkezinde kombine estetik operasyonlar ve ameliyatsız yüz gençleştirme seansları düzenlemektedir.",
     "about_me": "",
     "phone": "+49 69 555 9988",
-    "email": "fouad.besrour@example.com"
+    "email": "fouad.besrour@example.com",
+    "experience": 23,
+    "review_count": 33
   },
   {
     "id": "de_6",
@@ -335,7 +385,9 @@
     "bio": "15 yılı aşkın estetik cerrahi deneyimiyle, Berlin'de doğal görünümlü burun ve yüz estetiği konusunda uzmandır.",
     "about_me": "Estetik cerrahi alanındaki 15 yılı aşkın deneyimimle, Berlin'de doğal görünümlü burun düzeltmeleri (rinoplasti) ve harmonik yüz cerrahisi üzerine uzmanlaştım. Odak noktam, yüzün özgün karakterini ve kişiliğini kusursuz bir şekilde koruyan bireysel tedavi konseptleridir.",
     "phone": "+49 30 555 1122",
-    "email": "thomas.l@example.com"
+    "email": "thomas.l@example.com",
+    "experience": 21,
+    "review_count": 192
   },
   {
     "id": "de_7",
@@ -348,6 +400,8 @@
     "bio": "Kadın estetik cerrahi yaklaşımları, meme büyütme ve mommy makeover (annelik estetiği) konularında Berlin'de popüler bir uzman.",
     "about_me": "Berlin'de tanınmış bir uzman hekim olarak özellikle kadınlara yönelik estetik cerrahi alanında uzmanlaştım. Temel yetkinliklerim arasında, kadınların hamilelik sonrasında yeniden iyi hissetmelerini sağlamak amacıyla yapılan doku dostu meme büyütme operasyonları ve kişiye özel 'Mommy Makeover' kombine estetikleri yer almaktadır.",
     "phone": "+49 30 555 3344",
-    "email": "juliane.bodo@example.com"
+    "email": "juliane.bodo@example.com",
+    "experience": 8,
+    "review_count": 250
   }
 ]
